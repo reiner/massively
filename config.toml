@@ -11,3 +11,4 @@ theme = "hugo-theme-massively"
 [params.settings]
     googleanalytics = "UA-113904582-3"
     disqus = "hugo-massively"
+    

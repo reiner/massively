@@ -1,11 +1,11 @@
 {{ with .Site.Data.intro }}
 <div id="intro">
+<a href="/" class="image avatar"><img src="/images/TWIST.png" alt="" /></a>
     <h1>
         {{ range $i, $e := .title }}
             {{ if $i }} <br/> {{ end }} {{ .line }}
         {{ end }}
     </h1>
-	<a href="{{ .Site.BaseURL }}" class="image"><img src="{{ .Site.BaseURL }}images/TWIST.png" alt="" /></a>
     <p>
         {{ range $i, $e := .description }}
             {{ if $i }} <br/> {{ end }} {{ .line }}

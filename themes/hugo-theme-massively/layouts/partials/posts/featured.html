@@ -2,9 +2,6 @@
 {{ range .firstpost }}
 <article class="post featured">
     <header class="major">
-        {{ if .Date }}
-        <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-        {{ end }}
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Description }}</p>
     </header>

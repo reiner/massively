@@ -11,12 +11,10 @@ tags:
 
 ## Truth within statistics
 
-Therefore i like tthis website so much. @icn-camera
 
-| Column 1 | Column 2 |
+| When | Where |
 |----------|----------|
-| foo      | bar      |
-| baz      | qux      |
-| quux     | quuz     |
+| Kick-off     | August 26, 2018  |
+| Hackathon     | August 26 - August 27, 2018 |
 
 <img src="images/banner_sst_homepage.png" alt="Drawing" style="width: 500px;"/>

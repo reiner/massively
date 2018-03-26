@@ -1,9 +1,9 @@
 contactformaction: 'post-action'
 
 address:
-- line: '1234 Somewhere Road #87257'
-- line: 'Nashville, TN 00000-0000'
+- line: 'Schöntalstrasse 5'
+- line: '8090 Zürich'
 
-phone: '(800) 000-0000'
+phone: '+41 (0)43 / 259 75 00'
 
-email: 'someone@untitled.tld'
+email: 'info@open.zh.ch'

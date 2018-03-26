@@ -9,7 +9,7 @@ tags:
   - R Markdown
 ---
 
-## **T**ruth **w**ithin **St**atistics!!!!!!!!
+## Truth within statistics
 
 Therefore i like tthis website so much. @icn-camera
 
@@ -18,3 +18,5 @@ Therefore i like tthis website so much. @icn-camera
 | foo      | bar      |
 | baz      | qux      |
 | quux     | quuz     |
+
+<img src="images/banner_sst_homepage.png" alt="Drawing" style="width: 500px;"/>

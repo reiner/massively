@@ -17,7 +17,7 @@ What biases and resentments exist compared with fact-based statistics?
 
 <br>
 
-n the course of these three days, well-known figures from the field of statistics, the economy, academia, politics and culture will specifically discuss these issues. A number of open workshops will 
+In the course of these three days, well-known figures from the field of statistics, the economy, academia, politics and culture will specifically discuss these issues. A number of open workshops will 
 offer the opportunity to exchange views on a wide selection of topics.
 
 https://www.statistiktage.ch/en/

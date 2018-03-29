@@ -23,6 +23,15 @@
   </url>
   
   <url>
+    <loc>/further/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/further/further/</loc>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2017-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>

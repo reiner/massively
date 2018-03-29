@@ -1,4 +1,6 @@
 ---
+pages:
+- post/lu-cjjj.md
 hide_body: true
 fields:
 - type: datetime

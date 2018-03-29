@@ -3,5 +3,11 @@ pages:
 - post/lu-cjjj.md
 hide_body: true
 fields:
-- type: datetime
-  default: 2018-08-24 22:00:00 +0000
+- type: textarea
+  default: ''
+- type: image_gallery
+  default:
+  - "/uploads/2018/03/29/TWIST.png"
+- type: field_group_list
+- type: textarea
+  default: hello

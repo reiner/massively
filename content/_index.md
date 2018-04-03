@@ -4,11 +4,13 @@ author: thomas lo russo
 date: '2018-03-23'
 ---
 <center>
+<a href="https://www.eventbrite.com/" class="button back alt2">Register on Eventbrite</a>
+
 As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. During the 
 hackathon, interested participants will research the potential of various data sets.
 
-<br><br>
-
+Fruitful hackathons rely on ...  Wikidata-events  Make 2.. data collection & cleaning to build upon ...
+<br>
 
 |  When?          |
 |--------------------|

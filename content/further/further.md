@@ -1,8 +1,14 @@
 +++
-title = 'More'
-description = 'The Twist-Hackathon is part of the Swiss Statistics Meeting 2018.'
+title = 'Hackathon-Culture'
+description = 'the... '
 +++
 
+
+The organizers.. .hackathon culture etc.
+
+PICTURE OF ODD
+
+ 
 As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. During the 
 hackathon, interested participants will research the potential of various data sets. Between 50 and 
 100 participants are expected who will work together in 4 to 5 teams. Following the launch on Wednesday 22 August at which data will be presented and specifics discussed, attendees will explore 

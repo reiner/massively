@@ -11,7 +11,7 @@ hackathon, interested participants will research the potential of various data s
 
 |  When?          |
 |--------------------|
-|  August 26 - August 27, 2018 |
+|  August 25 - August 26, 2018 |
 
 
 |  Where?          |

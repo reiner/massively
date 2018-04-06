@@ -1,7 +1,7 @@
 +++
 title = 'Swiss Statistics Meeting 2018'
 slug = 'post2'
-#image = 'images/pic04.jpg'
+#image = 'images/bg.jpg'
 date = "2017-04-18T00:00:00"
 description = 'The Swiss Statistics Meeting will be held under the motto: “Statistic and emotions”'
 +++

@@ -2,6 +2,7 @@
 title = 'More about TWIST'
 slug = 'post1'
 date = "2017-04-22T00:00:00"
+#image = 'images/bg.jpg'
 description = 'The Twist-Hackathon is part of the Swiss Statistics Meeting 2018.'
 +++
 

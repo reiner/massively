@@ -1,0 +1,84 @@
+# shiny app
+# Compare Social Welfare Rates
+
+library(shiny)
+library(ggplot2)
+library(devtools)
+library(tidyr)
+library(DT)
+library(statR)
+
+# load data
+#setwd("/Users/roman/Documents/WB/Coursera_DataScience/9_DevelopingDataProducts/Course_Project/shiny-ddp")
+swr_data <- read.csv("KANTON_ZUERICH_541_Districts.csv", header = TRUE, sep = ";", quote="\"", dec=".")
+
+districts <- as.character(unique(swr_data$GEBIET_NAME))
+
+zhseq13 <- colorRampPalette((zhpal$zhlake[1:7]),space="Lab")(13)[c(seq(1,13,2),seq(0,12,2))]
+
+# Define UI for application 
+ui <- navbarPage("Compare Social Welfare Rates",
+    tabPanel("Plot", sidebarLayout(
+        sidebarPanel(
+            h4("Choose Regions"),
+            selectizeInput('e7', label= 'Choose District',choices = districts, 
+                           multiple = TRUE, selected = "Total Canton of Zurich", options= list(maxItems = 13)),
+            hr(),
+            includeMarkdown("about.Rmd")),
+        mainPanel(h4("Social Welfare Rates, Canton of Zurich, Districts, 2007-2015"),
+                  plotOutput("SWRplot")))),
+        tabPanel("Table", titlePanel("Data Table"),
+                 # Create a new Row in the UI for selectInputs
+                 fluidRow(
+                     column(4,
+                            selectInput("districtinput4",
+                                        "District:",
+                                        c("All",
+                                          unique(as.character(swr_data$GEBIET_NAME))))),
+                     column(4,
+                            selectInput("yearinput",
+                                        "Year:",
+                                        c("All",
+                                          unique(as.character(swr_data$INDIKATOR_JAHR)))))),
+                 # Create a new row for the table.
+                 fluidRow(
+                     DT::dataTableOutput("SWRtable"))
+        ),
+    tabPanel(p(icon("Info"), "About"),
+        includeMarkdown("about.Rmd"))
+        )
+
+# Define a server for the Shiny app
+server <- function(input, output, session) {
+    print(str(swr_data))
+    # plot
+  
+    output$SWRplot <- renderPlot({
+        ggplot(data = subset(swr_data, GEBIET_NAME %in% input$e7), 
+               aes(x = INDIKATOR_JAHR, y = INDIKATOR_VALUE, 
+                   group = GEBIET_NAME, colour = GEBIET_NAME)) +
+            geom_line() +
+            geom_point() +
+            xlab("Year") +
+            ylab("Social welfare rate in %") +
+            scale_colour_manual(values=zhseq13) +
+            scale_y_continuous(limits=c(0,6))+
+            theme_stat() +
+            theme(legend.title=element_blank())
+    })
+    # table
+    output$SWRtable <- DT::renderDataTable(DT::datatable({
+        dta <- swr_data
+        if (input$districtinput4 != "All") {
+            dta <- dta[dta$GEBIET_NAME == input$districtinput4,]
+        }
+        if (input$yearinput != "All") {
+            dta <- dta[dta$INDIKATOR_JAHR == input$yearinput,]
+        }
+        dta
+    }, options = list(paging = FALSE))
+    )
+}
+
+
+shinyApp(ui = ui, server = server)

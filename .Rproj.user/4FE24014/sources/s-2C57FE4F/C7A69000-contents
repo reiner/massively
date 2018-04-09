@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "TWIST"
 baseURL = "http://localhost:1313/"
 theme = "hugo-theme-massively"
+SectionPagesManu ="main"
 
 [params.posts]
     foldername = "post"
@@ -13,3 +14,14 @@ theme = "hugo-theme-massively"
     googleanalytics = "UA-113904582-3"
     disqus = "hugo-massively"
     
+[menu]
+  	[[menu.main]]
+  	name="Home"
+  	identifier="twist"
+  	url="/"
+
+  	[[menu.main]]
+  	name="Organisers"
+  	identifier="further"
+  	url="/further/"
+      

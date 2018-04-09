@@ -5,15 +5,25 @@ title = "Hackathon-Culture"
 type = "page"
 +++
 
-We are a group of people working for organizations committed to bringing toghether different communities to show the benefits of open data and encourage the adoption of open data policies.
+We are a group of people working for organizations committed to bringing together different communities to show the benefits of open data and encourage the adoption of open data policies.
 
 Organization Committee
 
--
+Marco Sieber & Reto Wick (OpenData Stadt Zürich)
+Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich)
+Christina Sarasua, University of Zurich 
+Muriel Buri, University of Zurich
 
 ## Upcoming Events
 
+Wikidata Zurich Datathon
+
+22-30.6.2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
+
+16.06.2018, a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wikidata Zurich Datathon</a>
+
 ## Past Events
 
+[OpenDataDay Hackathon (picture)](https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html)
 
-[Opendataday (picture)](https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html)
+

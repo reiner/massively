@@ -22,6 +22,6 @@ SectionPagesManu ="main"
 
   	[[menu.main]]
   	name="Organisers"
-  	identifier="further"
-  	url="/further/"
+  	identifier="about"
+  	url="/about/"
       

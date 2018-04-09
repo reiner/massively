@@ -23,5 +23,5 @@ on Tuesday 28 August.
 Participation in the hackathon is free.
 <br>
 
-This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various fields. This is an exciting 
-prospect both for the sponsors and offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.
+This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various areas. This is an exciting 
+prospect both for the offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.

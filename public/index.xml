@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>intro on TWIST</title>
+    <link>/</link>
+    <description>Recent content in intro on TWIST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>More about TWIST</title>
+      <link>/post/post1/</link>
+      <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post1/</guid>
+      <description>As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. During the hackathon, interested participants will research the potential of various data sets. Between 50 and 100 participants are expected who will work together in 4 to 5 teams. Following the launch on Wednesday 22 August at which data will be presented and specifics discussed, attendees will explore the data in depth and will work in interdisciplinary teams.</description>
+    </item>
+    
+    <item>
+      <title>Swiss Statistics Meeting 2018</title>
+      <link>/post/post2/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/post2/</guid>
+      <description>While statistics is an exact science, emotions by contrast are subjective, often irrational and difficult to measure. Despite or perhaps even due to this contrast, statistics and emotions are increasingly considered together: if moods and feelings increasingly define what is true and false, what exactly is the role of statistics?
+ Are decisions too often made on a purely emotional basis, neglecting statistical data and proven facts?
+ How important are evidence-based decision processes given that factual correctness is becoming less and less relevant in politics and the economy?</description>
+    </item>
+    
+    <item>
+      <title>Hackathon-Culture</title>
+      <link>/further/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/further/</guid>
+      <description>The organizers.. .hackathon culture etc.
+We are a group
+https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html
+
+Participation in the hackathon is free. </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,18 +1,18 @@
 +++
-title = 'Hackathon-Culture'
-image = 'images/odd.png'
-description = 'We are a group of people comited to open data and civic engagement. Hackathons are part of our DNA.'
-+++
+description = "We are a group of people committed to open data and civic engagement. Hackathons are part of our DNA."
+image = "images/odd.png"
+title = "Hackathon-Culture"
+type = "page"
 
-The organizers.. .hackathon culture etc.
+We are a group of people working for organizations committed to bringing toghether different communities to show the benefits of open data and encourage the adoption of open data policies.
 
-We are a group 
+Organization Committee
 
-https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html
+-
+
+## Upcoming Events
+
+## Past Events
 
 
-
-<br>
-
-Participation in the hackathon is free.
-<br>
+[Opendataday (picture)](https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html)

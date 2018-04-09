@@ -21,7 +21,7 @@ SectionPagesManu ="main"
   	url="/"
 
   	[[menu.main]]
-  	name="About"
+  	name="Organizers"
   	identifier="about"
   	url="/about/"
       

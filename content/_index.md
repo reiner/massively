@@ -4,7 +4,7 @@ author: thomas lo russo
 date: '2018-03-23'
 ---
 <center>
-<a href="https://www.eventbrite.com/" class="button back alt2">Register on Eventbrite</a>
+<a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register on Eventbrite</a>
 ### T<font color="#EB791F">ruth</font> WI<font color="#EB791F">thin</font> ST<font color="#EB791F">atistics</font> - Hackathon<br>
 As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. During the 
 hackathon, interested participants will research the potential of various data sets. 

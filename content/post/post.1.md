@@ -1,5 +1,5 @@
 +++
-title = 'More about TWIST'
+title = 'About TWIST'
 slug = 'post1'
 date = "2017-04-22T00:00:00"
 #image = 'images/bg.jpg'
@@ -20,8 +20,7 @@ At the end the results of the hackathon will be presented to the public at the S
 on Tuesday 28 August.
 <br>
 
-Participation in the hackathon is free.
-<br>
-
 This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various areas. This is an exciting 
 prospect both for the offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.
+
+**Participation in the hackathon is free**. A supervised playarea for children will be available during the hackdays. If you need full service childcare for children staying the entire day, please fill in this form. We will evaluate two months before the event, if interest in full service childcare is high enough. 

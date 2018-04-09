@@ -13,11 +13,9 @@ Marco Sieber & Reto Wick (OpenData Stadt Zürich) /
 Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich) /
 Christina Sarasua, University of Zurich  & Wikimedia Foundation /
 Gonzalo Casas, ETH Zurich & Open Network Infrastructure Network Association /
-Muriel Buri, University of Zurich & R User-Group 
+Muriel Buri & Dorothea Hug Peter, University of Zurich & R User-Group 
 
 ## Upcoming Events
-
-Wikidata Zurich Datathon
 
 22-30.6.2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
 

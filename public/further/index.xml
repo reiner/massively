@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Furthers on TWIST</title>
+    <link>/further/</link>
+    <description>Recent content in Furthers on TWIST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/further/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hackathon-Culture</title>
+      <link>/further/further/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/further/further/</guid>
+      <description>The organizers.. .hackathon culture etc.
+We are a group
+https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html
+
+Participation in the hackathon is free. </description>
+    </item>
+    
+  </channel>
+</rss>

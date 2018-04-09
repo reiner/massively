@@ -1,6 +1,7 @@
----
-contactformaction: post-action
+contactformaction: 'post-action'
+
 address:
-- line: Schöntalstrasse 5
-- line: 8090 Zürich
-email: info@open.zh.ch
+- line: 'Schöntalstrasse 5'
+- line: '8090 Zürich'
+
+email: 'info@open.zh.ch'

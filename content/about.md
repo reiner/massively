@@ -8,7 +8,6 @@ We are a group of people working for organizations committed to bringing togheth
 
 Organization Committee
 
-
 -
 
 ## Upcoming Events

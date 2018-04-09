@@ -1,7 +1,28 @@
 <!-- Nav -->
+
 <nav id="nav">
     <ul class="links">
-        <li class="active"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
+        <!-- <li class="active"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li> -->
+	    <!-- <li ><a href="\further\further\index.html">Organizers & related events</a></li> -->
+		
+		
+		<!-- <li class="active"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li> -->
+		
+		<!-- build menu which is built by config.toml entries -->
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"> <a href="{{ .URL }}">{{ .Name }}</a></li>
+	<!-- {{ if eq $.Kind "home" }} -->
+                <!-- {{ $.Scratch.Set "active" ($.IsMenuCurrent "main" .) }} -->
+            <!-- {{ else }} -->
+                <!-- {{ $.Scratch.Set "active" (eq .Identifier $.Type) }} -->
+            <!-- {{ end }} -->
+            <!-- {{ $active := $.Scratch.Get "active" }} -->
+	<!-- <li class="{{ if $active }}active{{end}}> <a href="{{ .URL }}">{{ .Name }}</a></li> -->
+	
+	
+    {{ end }}
+<!-- </nav>	 -->
         {{ with .Site.Data.contactinfo }}
         <li><a href="{{ .Site.BaseURL }}#footer">Contact</a></li>
         {{ end }}

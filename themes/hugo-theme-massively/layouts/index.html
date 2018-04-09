@@ -25,8 +25,16 @@
 				{{ partial "nav" . }}
 
 				<!-- Main -->
+				
 					<div id="main">
+					    
+						
+					  <!-- Element um .md content aus _index.md anzuziehen!-->
+					     {{.Content}}
 
+					  <!-- Element um .md content aus _index.md anzuziehen!-->
+						 
+						 
 						{{ if eq .Site.Params.Posts.featuredpost "true" }}
 						{{ partial "posts/featured.html" (dict "firstpost" $firstPost) }}
 						{{ end }}

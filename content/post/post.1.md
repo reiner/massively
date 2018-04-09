@@ -15,8 +15,7 @@ each team will allow for creativity and the development of new solutions and ide
 
 In freely-chosen teams, participants will work on visualisations and analyses among other things. 
 Rooms will be available for this purpose as of Saturday 25 August. Refreshments and a high-performance wifi connection will be available around the clock.
-Attendees of the Swiss Statistics Meeting are also naturally welcome whether as active team mem-
-bers or bystanders.
+Attendees of the Swiss Statistics Meeting are also naturally welcome whether as active team members or bystanders.
 At the end the results of the hackathon will be presented to the public at the Swiss Statistics Meeting 
 on Tuesday 28 August.
 <br>
@@ -24,8 +23,5 @@ on Tuesday 28 August.
 Participation in the hackathon is free.
 <br>
 
-
-This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. 
-The  predominantly  young  participants  often  from  the  university  sector  breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various fields. This is an exciting 
-prospect both for the sponsors and offices taking part in the Swiss Statistics Meeting in terms of the 
-transfer of technology and recruitment.
+This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various fields. This is an exciting 
+prospect both for the sponsors and offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.

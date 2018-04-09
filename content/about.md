@@ -11,8 +11,9 @@ Organization Committee
 
 Marco Sieber & Reto Wick (OpenData Stadt Zürich)
 Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich)
-Christina Sarasua, University of Zurich 
-Muriel Buri, University of Zurich
+Christina Sarasua, University of Zurich  & Wikimedia Foundation
+Gonzalo Casas, ETH Zurich & Open Network Infrastructure Network Association
+Muriel Buri, University of Zurich & R User-Group
 
 ## Upcoming Events
 
@@ -26,4 +27,7 @@ Wikidata Zurich Datathon
 
 [OpenDataDay Hackathon (picture)](https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html)
 
+[Wikidata Workshop @ Digital Festival 2017](https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich)
+
+[MakeZurich Vol.1](https://makezurich.ch/)
 

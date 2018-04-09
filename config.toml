@@ -1,27 +1,20 @@
-languageCode = "en-us"
-title = "TWIST"
+SectionPagesManu = "main"
 baseURL = "http://localhost:1313/"
+languageCode = "en-us"
 theme = "hugo-theme-massively"
-SectionPagesManu ="main"
-
+title = "TWIST"
+[[menu.main]]
+identifier = "further"
+name = "Organisers"
+url = "/further/"
+[[menu.main]]
+identifier = "twist"
+name = "Home"
+url = "/"
 [params.posts]
-    foldername = "post"
-    pagesize = "6"
-    featuredpost= "true"
-	
-
+featuredpost = true
+foldername = "post"
+pagesize = "6"
 [params.settings]
-    googleanalytics = "UA-113904582-3"
-    disqus = "hugo-massively"
-    
-[menu]
-  	[[menu.main]]
-  	name="Home"
-  	identifier="twist"
-  	url="/"
-
-  	[[menu.main]]
-  	name="Organisers"
-  	identifier="further"
-  	url="/further/"
-      
+disqus = "hugo-massively"
+googleanalytics = "UA-113904582-3"

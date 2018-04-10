@@ -13,7 +13,7 @@ the data in depth and will work in interdisciplinary teams. The different skills
 each team will allow for creativity and the development of new solutions and ideas.
 <br>
 
-## Free participation & familiy-friendly setting
+## Free participation & family-friendly setting
 
 **Participation in the hackathon is free**. In freely-chosen teams, participants will work on visualisations and analyses among other things. 
 Rooms will be available for this purpose as of Saturday 25 August. Refreshments and a high-performance wifi connection will be available around the clock.

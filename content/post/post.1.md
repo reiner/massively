@@ -19,7 +19,7 @@ In freely-chosen teams, participants will work on visualisations and analyses am
 Rooms will be available for this purpose as of Saturday 25 August. Refreshments and a high-performance wifi connection will be available around the clock.
 Attendees of the Swiss Statistics Meeting are also naturally welcome whether as active team members or bystanders. A supervised playarea for children will be available during the hackdays.
 We are evaluating whether there is demand for full service childcare for children staying the entire day. Please fill in this form if you are interested:
-Google form
+https://docs.google.com/forms/d/e/1FAIpQLSdEk_2PQKk-K9zuqYuwwOQ0qpTHrGOra1MiIeKa6vNFnOSP9g/viewform
 
 **Participation in the hackathon is free**.
 

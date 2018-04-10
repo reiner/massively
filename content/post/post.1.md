@@ -13,7 +13,7 @@ the data in depth and will work in interdisciplinary teams. The different skills
 each team will allow for creativity and the development of new solutions and ideas.
 <br>
 
-## Free participation & familiy-friendly setting**
+## Free participation & familiy-friendly setting
 
 In freely-chosen teams, participants will work on visualisations and analyses among other things. 
 Rooms will be available for this purpose as of Saturday 25 August. Refreshments and a high-performance wifi connection will be available around the clock.
@@ -23,7 +23,7 @@ Google form
 
 **Participation in the hackathon is free**.
 
-## The final Results will be presented at the Swiss Statistics Meeting
+## Final Results will be presented at the Swiss Statistics Meeting
 
 This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various areas. This is an exciting 
 prospect both for the offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.

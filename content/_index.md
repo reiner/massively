@@ -6,7 +6,8 @@ date: '2018-03-23'
 <center>
 <a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a>
 ### T<font color="#EB791F">ruth</font> WI<font color="#EB791F">thin</font> ST<font color="#EB791F">atistics</font> - Hackathon<br>
-As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. Developers, statisticans, designers, journalists, hackers and citizens of all backgrounds will be working with open data on the **subject of statistics and  emotions, evidence based decision making and fake news**. It is the Pre-Event of the Swiss Statistics Meeting 2018 in Zurich. 
+As part of the 2018 Swiss Statistics Meeting, a hackathon will be held for the first time. Developers, statisticans, designers, journalists, hackers and citizens of all backgrounds will be working with open data on the **subject of statistics and  emotions, evidence based decision making and fake news**. It is the Pre-Event of the <a href="
+https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich. 
 
 |  When?          |
 |--------------------|

@@ -1,5 +1,10 @@
 {{ with .Site.Data.intro }}
 <div id="intro">
+    <h2>
+        {{ range $i, $e := .teaser }}
+            {{ if $i }} <br/> {{ end }} {{ .line }}
+        {{ end }}
+    </h2>
 <center>
 <a href="/" class="image avatar"><img style="width: 60%" src="/images/TWIST.png" alt="" /></a>
 </center>

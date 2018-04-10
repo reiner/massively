@@ -28,10 +28,8 @@ We are evaluating whether there is demand for full service childcare for childre
 This first hackathon will attract a completely new group of people to the Swiss Statistics Meeting. Participants from a broad range of different fields will breathe  new  life  into  the  statistics scene, providing for an exchange between experts from various areas. This is an exciting 
 prospect both for the offices taking part in the Swiss Statistics Meeting in terms of the transfer of technology and recruitment.
 
-At the end the results of the hackathon will be presented to the public at the <a href="https://www.statistiktage.ch/en/">Swiss Statistics Meeting</a>.
+At the end the results of the hackathon will be presented to the public at the <a href="https://www.statistiktage.ch/en/">Swiss Statistics Meeting</a> on Tuesday 28 August.
 </center>
-
-on Tuesday 28 August.
 <br>
 <center>
 <a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a>

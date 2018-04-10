@@ -24,4 +24,9 @@ SectionPagesManu ="main"
   	name="Organizers"
   	identifier="about"
   	url="/about/"
+	
+	[[menu.main]]
+  	name="More about Twist"
+  	identifier="abouttwist"
+  	url="/post/post1/"
       

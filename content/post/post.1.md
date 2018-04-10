@@ -15,13 +15,13 @@ each team will allow for creativity and the development of new solutions and ide
 
 ## Free participation & familiy-friendly setting
 
-In freely-chosen teams, participants will work on visualisations and analyses among other things. 
+**Participation in the hackathon is free**. In freely-chosen teams, participants will work on visualisations and analyses among other things. 
 Rooms will be available for this purpose as of Saturday 25 August. Refreshments and a high-performance wifi connection will be available around the clock.
 Attendees of the Swiss Statistics Meeting are also naturally welcome whether as active team members or bystanders. A supervised playarea for children will be available during the hackdays.
 We are evaluating whether there is demand for full service childcare for children staying the entire day. Please fill in this form if you are interested:
-https://docs.google.com/forms/d/e/1FAIpQLSdEk_2PQKk-K9zuqYuwwOQ0qpTHrGOra1MiIeKa6vNFnOSP9g/viewform
-
-**Participation in the hackathon is free**.
+<center>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdEk_2PQKk-K9zuqYuwwOQ0qpTHrGOra1MiIeKa6vNFnOSP9g/viewform" class="button back alt2">Childcarde needed? Let us know!</a>
+</center>
 
 ## Final Results will be presented at the Swiss Statistics Meeting
 
@@ -31,3 +31,6 @@ prospect both for the offices taking part in the Swiss Statistics Meeting in ter
 At the end the results of the hackathon will be presented to the public at the Swiss Statistics Meeting 
 on Tuesday 28 August.
 <br>
+<center>
+<a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a>
+</center>

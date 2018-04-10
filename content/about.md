@@ -1,7 +1,7 @@
 +++
 description = "We are a group of people committed to open data and civic engagement. Hackathons are part of our DNA."
 image = "images/odd.png"
-title = "Hackathon-Culture"
+title = "About us"
 type = "page"
 +++
 
@@ -11,8 +11,8 @@ We are a group of people working for organizations committed to bringing togethe
 
 Marco Sieber & Reto Wick (OpenData Stadt Zürich) /
 Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich) /
-Christina Sarasua, University of Zurich  & Wikimedia Foundation /
-Gonzalo Casas, ETH Zurich & Open Network Infrastructure Network Association /
+Christina Sarasua, University of Zurich & Wikimedia Foundation /
+Gonzalo Casas, Open Network Infrastructure Network Association /
 Muriel Buri & Dorothea Hug Peter, University of Zurich & R User-Group 
 
 ## Upcoming Events

@@ -11,7 +11,7 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 
 |  When?          |
 |--------------------|
-|  August 25 - August 26, 2018 |
+|  August 25-26, 2018 |
 
 
 |  Where?          |
@@ -28,3 +28,5 @@ Fruitful hackathons depend on fertile ground. Our organizing team is involved in
 <img src="images/logo_rusergroup.png" alt="Drawing" style="width: 8%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/logo-onia.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;
 </center> 
+
+<a class="twitter-timeline" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

@@ -17,9 +17,9 @@ Muriel Buri & Dorothea Hug Peter, University of Zurich & R User-Group
 
 ## Upcoming Events
 
-22-30.6.2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
+June 22-30, 2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
 
-16.06.2018, <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wikidata Zurich Datathon</a>
+June 16, 2018, <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wikidata Zurich Datathon</a>
 
 ## Past Events
 

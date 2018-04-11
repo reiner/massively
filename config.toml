@@ -15,18 +15,21 @@ SectionPagesManu ="main"
     disqus = "hugo-massively"
     
 [menu]
-  	[[menu.main]]
+    [[menu.main]]
   	name="Home"
-  	identifier="twist"
+  	identifier="home"
   	url="/"
 
-  	[[menu.main]]
-  	name="Organizers"
-  	identifier="about"
-  	url="/about/"
-	
-	[[menu.main]]
+   [[menu.main]]
   	name="More about Twist"
   	identifier="abouttwist"
   	url="/post/post1/"
+	
+   [[menu.main]]
+  	name="More about us"
+  	identifier="about"
+  	url="/about/"
+
+
+	
       

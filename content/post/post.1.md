@@ -32,3 +32,5 @@ At the end the results of the hackathon will be presented to the public at the <
 <center>
 <a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a>
 </center>
+
+<a class="twitter-timeline" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

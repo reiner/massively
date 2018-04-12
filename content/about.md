@@ -1,5 +1,5 @@
 +++
-description = "We are a group of people committed to open data and civic engagement. Hackathons are part of our DNA."
+description = "We are a group of people committed to open data and civic engagement. Hackdays are part of our DNA."
 image = "images/odd.png"
 title = "About us"
 type = "page"

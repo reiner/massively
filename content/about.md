@@ -11,9 +11,9 @@ We are a group of people working for organizations committed to bringing togethe
 
 Marco Sieber & Reto Wick (OpenData Stadt Zürich) /
 Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich) /
-Christina Sarasua, University of Zurich & Wikimedia Foundation /
+Cristina Sarasua, University of Zurich /
 Gonzalo Casas, Open Network Infrastructure Network Association /
-Muriel Buri & Dorothea Hug Peter, University of Zurich & R User-Group 
+Muriel Buri & Dorothea Hug Peter, University of Zurich & Zurich R User-Group 
 
 #### Upcoming Events
 

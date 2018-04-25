@@ -11,7 +11,7 @@ SectionPagesManu ="main"
 	
 
 [params.settings]
-    googleanalytics = "UA-113904582-3"
+    googleanalytics = "UA-54516992-1"
     disqus = "hugo-massively"
     
 [menu]

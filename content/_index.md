@@ -25,8 +25,8 @@ Fruitful hackdays depend on fertile ground. Our organizing team is involved in s
 <img src="images/logo_stzh_stat_sw.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/logo-uzh.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/logo-stat.png" alt="Drawing" style="width: 25%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-<img src="images/dynelitics.gif" alt="Drawing" style="width: 20%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/logo_rusergroup.png" alt="Drawing" style="width: 8%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/dynelitics.gif" alt="Drawing" style="width: 20%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/logo_rusergroup.png" alt="Drawing" style="width: 8%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/logo-onia.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;
 </center> 

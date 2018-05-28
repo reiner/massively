@@ -9,5 +9,31 @@ theme = "hugo-theme-massively"
     featuredpost = "true"
 
 [params.settings]
-    googleanalytics = "UA-113904582-3"
+    googleanalytics = "UA-118141496-1"
     disqus = "hugo-massively"
+<<<<<<< HEAD
+=======
+    
+[menu]
+    [[menu.main]]
+  	name="Home"
+  	identifier="home"
+  	url="/"
+	weight=1
+
+   [[menu.main]]
+  	name="About"
+  	identifier="about"
+  	url="/about/"
+	weight=3
+	
+	[[menu.main]]
+  	name="News"
+  	identifier="news"
+  	url="/news/"
+	weight=4
+
+
+	
+      
+>>>>>>> massively_customized

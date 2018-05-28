@@ -1,8 +1,11 @@
-contactformaction: 'post-action'
-
 address:
+<<<<<<< HEAD
 - line: '1234 Somewhere Road #87257'
 - line: 'Nashville, TN 00000-0000'
+=======
+- line: 'Rämistrasse 71'
+- line: '8006 Zürich'
+>>>>>>> massively_customized
 
 phone: '(800) 000-0000'
 

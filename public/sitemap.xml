@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>/post/lu-cjjj/</loc>
     <lastmod>2018-03-29T09:15:43+00:00</lastmod>
   </url>
@@ -10,6 +11,30 @@
   <url>
     <loc>/post/comments-example/</loc>
     <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+=======
+    <loc>/news/post1/</loc>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/post2/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+>>>>>>> massively_customized
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,6 +48,7 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>/post/post5/</loc>
     <lastmod>2017-04-14T00:00:00+00:00</lastmod>
   </url>
@@ -100,6 +126,13 @@
   <url>
     <loc>/</loc>
     <lastmod>2018-03-29T09:15:43+00:00</lastmod>
+=======
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+>>>>>>> massively_customized
     <priority>0</priority>
   </url>
   

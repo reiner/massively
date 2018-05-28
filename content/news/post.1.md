@@ -1,12 +1,7 @@
 +++
-title = 'Primis eget imperdiet lorem'
+title = 'About TWIST'
 slug = 'post1'
-image = 'images/pic03.jpg'
-date = "2017-04-22T00:00:00"
-<<<<<<< HEAD
-description = 'Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.'
-+++
-=======
+date = "2018-04-22T00:00:00"
 #image = 'images/bg.jpg'
 description = 'The Twist-Hackdays are part of the Swiss Statistics Meeting 2018.'
 +++
@@ -39,4 +34,3 @@ At the end the results of the hackdays will be presented to the public at the <a
 </center>
 
 <a class="twitter-timeline" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
->>>>>>> massively_customized

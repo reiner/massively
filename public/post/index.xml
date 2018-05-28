@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on TWIST</title>
+    <title>intro on TWIST</title>
     <link>/post/</link>
-    <description>Recent content in Posts on TWIST</description>
+    <description>Recent content in intro on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Thu, 29 Mar 2018 09:15:43 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Fri, 23 Mar 2018 00:00:00 +0000</lastBuildDate>
+>>>>>>> massively_customized
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,7 +39,11 @@
       <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/post1/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      <description>As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. During the hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within the different teams will allow for creativity and the development of new solutions and ideas. Free participation &amp;amp; family-friendly setting Participation in the hackdays is free.</description>
+>>>>>>> massively_customized
     </item>
     
     <item>

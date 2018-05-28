@@ -12,6 +12,7 @@
     
     
     <item>
+<<<<<<< HEAD
       <title>lu cjjj</title>
       <link>/post/lu-cjjj/</link>
       <pubDate>Thu, 29 Mar 2018 09:15:43 +0000</pubDate>
@@ -31,11 +32,38 @@
     
     <item>
       <title>Primis eget imperdiet lorem</title>
+=======
+      <title>About TWIST</title>
+      <link>/news/post1/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/post1/</guid>
+      <description>As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. During the hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within the different teams will allow for creativity and the development of new solutions and ideas. Free participation &amp;amp; family-friendly setting Participation in the hackdays is free.</description>
+    </item>
+    
+    <item>
+      <title>Swiss Statistics Meeting 2018</title>
+      <link>/news/post2/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/post2/</guid>
+      <description>While statistics is an exact science, emotions by contrast are subjective, often irrational and difficult to measure. Despite or perhaps even due to this contrast, statistics and emotions are increasingly considered together: if moods and feelings increasingly define what is true and false, what exactly is the role of statistics?
+ Are decisions too often made on a purely emotional basis, neglecting statistical data and proven facts?
+ How important are evidence-based decision processes given that factual correctness is becoming less and less relevant in politics and the economy?</description>
+    </item>
+    
+    <item>
+      <title>About TWIST</title>
+>>>>>>> massively_customized
       <link>/post/post1/</link>
       <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/post1/</guid>
+<<<<<<< HEAD
       <description></description>
+=======
+      <description>As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. During the hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within the different teams will allow for creativity and the development of new solutions and ideas. Free participation &amp;amp; family-friendly setting Participation in the hackdays is free.</description>
+>>>>>>> massively_customized
     </item>
     
     <item>
@@ -113,12 +141,21 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>first post</title>
       <link>/post/post/</link>
       <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
       
       <guid>/post/post/</guid>
       <description></description>
+=======
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. During the hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within the different teams will allow for creativity and the development of new solutions and ideas. Free participation &amp;amp; family-friendly setting Participation in the hackdays is free.</description>
+>>>>>>> massively_customized
     </item>
     
   </channel>

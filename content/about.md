@@ -1,15 +1,10 @@
 +++
-title = 'Primis eget imperdiet lorem'
-slug = 'post1'
-image = 'images/pic03.jpg'
-date = "2017-04-22T00:00:00"
-<<<<<<< HEAD
-description = 'Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.'
+description = "The Twist-Hackdays are part of the Swiss Statistics Meeting 2018."
+image = "images/odd.png"
+title = "About"
+type = "page"
 +++
-=======
-#image = 'images/bg.jpg'
-description = 'The Twist-Hackdays are part of the Swiss Statistics Meeting 2018.'
-+++
+
 
 As part of the 2018 <a href="https://www.statistiktage.ch/en/">Swiss Statistics Meeting</a>, hackdays will be held for the first time. During the 
 hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within 
@@ -38,5 +33,32 @@ At the end the results of the hackdays will be presented to the public at the <a
 <a href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a>
 </center>
 
+#### We are a group of people committed to open data and civic engagement. Hackdays are part of our DNA.
+
+We are a group of people working for organizations committed to bringing together different communities to show the benefits of open data and encourage the adoption of open data policies.
+
+#### Organization Committee
+
+Marco Sieber & Reto Wick (OpenData Stadt Zürich) /
+Andreas Amsler, Matthias Mazenauer & Thomas Lo Russo (Statistisches Amt Kanton Zürich) /
+Cristina Sarasua, University of Zurich /
+Gonzalo Casas, Open Network Infrastructure Network Association /
+Muriel Buri & Dorothea Hug Peter, University of Zurich & Zurich R User-Group 
+
+#### Upcoming Events
+
+June 22-30, 2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
+
+June 16, 2018, <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wikidata Zurich Datathon</a>
+
+#### Past Events
+
+[OpenDataDay Hackathon (picture)](https://www.stadt-zuerich.ch/portal/de/index/ogd/anwendungen/2017/ODD17_Hackathon_Projekte.html)
+
+[Wikidata Workshop @ Digital Festival 2017](https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich)
+
+[MakeZurich Vol.1](https://makezurich.ch/)
+
 <a class="twitter-timeline" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
->>>>>>> massively_customized
+
+

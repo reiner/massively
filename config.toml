@@ -22,13 +22,7 @@ SectionPagesManu ="main"
 	weight=1
 
    [[menu.main]]
-  	name="More about Twist"
-  	identifier="abouttwist"
-  	url="/post/post1/"
-	weight=2
-	
-   [[menu.main]]
-  	name="More about us"
+  	name="About"
   	identifier="about"
   	url="/about/"
 	weight=3

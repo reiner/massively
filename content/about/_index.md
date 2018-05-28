@@ -1,10 +1,9 @@
-+++
+﻿+++
 description = "The Twist-Hackdays are part of the Swiss Statistics Meeting 2018."
 image = "images/odd.png"
 title = "About"
 type = "page"
 +++
-
 
 As part of the 2018 <a href="https://www.statistiktage.ch/en/">Swiss Statistics Meeting</a>, hackdays will be held for the first time. During the 
 hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within 

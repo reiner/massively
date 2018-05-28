@@ -19,16 +19,25 @@ SectionPagesManu ="main"
   	name="Home"
   	identifier="home"
   	url="/"
+	weight=1
 
    [[menu.main]]
   	name="More about Twist"
   	identifier="abouttwist"
   	url="/post/post1/"
+	weight=2
 	
    [[menu.main]]
   	name="More about us"
   	identifier="about"
   	url="/about/"
+	weight=3
+	
+	[[menu.main]]
+  	name="News"
+  	identifier="news"
+  	url="/news/"
+	weight=4
 
 
 	

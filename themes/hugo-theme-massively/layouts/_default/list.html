@@ -1,47 +1,52 @@
 {{ partial "htmlhead" . }}
 	<body class="is-loading">
-
+	
+		
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
+			
 
                 {{ partial "header" . }}
                 {{ partial "nav" . }}
 
 				<!-- Main -->
 					<div id="main">
-						<!-- Post -->
-                        <section class="post">
-                            <header class="major">
+						<!-- <!-- Post -->
+                       <section class="posts">
+							 <!-- <header class="major">  -->
 							
-							     <!-- Datum auskommentiert -->
-                           <!--      {{ if .Date }}
-                                <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-                                {{ end }}-->
+							     <!-- <!-- Datum auskommentiert --> 
+                       <!--   {{ if .Date }} -->
+                                <!-- <span class="date">{{ .Date.Format "January 2, 2006" }}</span> -->
+                                <!-- {{ end }}-->
 								
-                                <h1>{{ .Title }}</h1>
-                                <p>{{ .Description }}</p>
-                            </header>
-                            {{ if .Params.image }}
-                            <div class="image main"><img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="" /></div>
-                            {{ end }}
-                            {{ .Content }}
+                                <!-- <h1>{{ .Title }}</h1> -->
+                                <!-- <p>{{ .Description }}</p> -->
+                            <!-- </header> -->
+                            <!-- {{ if .Params.image }} -->
+                            <!-- <div class="image main"><img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="" /></div> -->
+                            <!-- {{ end }} -->
+                            <!-- {{ .Content }} -->
 
-                            {{ partial "postcustom" . }}
-
-                            {{ if .Params.disqusid }}
-                            <div id="disqus_thread"></div>
-                            {{ end }}
+                            <!-- {{ if .Params.disqusid }} -->
+                            <!-- <div id="disqus_thread"></div> -->
+                            <!-- {{ end }} -->
 							
-							
-<ul>
     <!-- orders content according to the "date" field in front matter -->
     {{ range .Data.Pages.ByDate }}
-        <li>
-            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        </li>
+	<article>
+        <header>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        </header>
+		 {{ if .Params.image }}
+        <a  href="{{ .Permalink }}" class="image fit"><img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="" /></a>
+        {{ end }}
+        <p>{{ .Description }}</p>
+        <ul class="actions">
+            <li><a href="{{ .Permalink }}" class="button">{{ .Site.Data.post.linktext }}</a></li>
+        </ul>
+    </article>
     {{ end }}
-</ul>
                         </section>
 
 					</div>

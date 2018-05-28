@@ -56,6 +56,7 @@
 		box-sizing: border-box;
 	}
 
+
 /* Grid */
 
 	.row {
@@ -1734,6 +1735,7 @@
 	h3 {
 		font-size: 1.25rem;
 		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h4 {
@@ -3129,7 +3131,12 @@
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			color: #FFFFFF;
+			 text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+	1px 1px 0 #000;  
 		}
 
 		#intro blockquote {

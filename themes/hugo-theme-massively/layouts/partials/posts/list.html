@@ -3,9 +3,6 @@
     {{ range .posts.Pages }}
     <article>
         <header>
-            {{ if .Date }}
-            <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-            {{ end }}
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         </header>
         {{ if .Params.image }}

@@ -2,9 +2,6 @@
 {{ range .firstpost }}
 <article class="post featured">
     <header class="major">
-        {{ if .Date }}
-        <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-        {{ end }}
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Description }}</p>
     </header>
@@ -12,7 +9,7 @@
     <a href="{{ .Permalink }}" class="image main"><img src="{{ .Site.BaseURL }}{{ .Params.image }}" alt="" /></a>
     {{ end }}
     <ul class="actions">
-        <li><a href="{{ .Permalink }}" class="button big">{{ .Site.Data.post.linktext }}</a></li>
+       <center><li><a href="{{ .Permalink }}" class="button big">{{ .Site.Data.post.linktext }}</a></li></center>
     </ul>
 </article>
 {{ end }}

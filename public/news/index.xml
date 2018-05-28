@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TWIST</title>
+    <link>/news/</link>
+    <description>Recent content on TWIST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About TWIST</title>
+      <link>/news/post1/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/post1/</guid>
+      <description>As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. During the hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within the different teams will allow for creativity and the development of new solutions and ideas. Free participation &amp;amp; family-friendly setting Participation in the hackdays is free.</description>
+    </item>
+    
+    <item>
+      <title>Swiss Statistics Meeting 2018</title>
+      <link>/news/post2/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/news/post2/</guid>
+      <description>While statistics is an exact science, emotions by contrast are subjective, often irrational and difficult to measure. Despite or perhaps even due to this contrast, statistics and emotions are increasingly considered together: if moods and feelings increasingly define what is true and false, what exactly is the role of statistics?
+ Are decisions too often made on a purely emotional basis, neglecting statistical data and proven facts?
+ How important are evidence-based decision processes given that factual correctness is becoming less and less relevant in politics and the economy?</description>
+    </item>
+    
+  </channel>
+</rss>

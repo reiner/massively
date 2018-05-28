@@ -56,6 +56,7 @@
 		box-sizing: border-box;
 	}
 
+
 /* Grid */
 
 	.row {
@@ -1734,6 +1735,7 @@
 	h3 {
 		font-size: 1.25rem;
 		margin: 0 0 1.5rem 0;
+		text-transform: none;
 	}
 
 	h4 {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on TWIST</title>
+    <link>/event/</link>
+    <description>Recent content in Events on TWIST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swiss Statistics Meeting 2018</title>
+      <link>/event/post3/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/event/post3/</guid>
+      <description>While statistics is an exact science, emotions by contrast are subjective, often irrational and difficult to measure. Despite or perhaps even due to this contrast, statistics and emotions are increasingly considered together: if moods and feelings increasingly define what is true and false, what exactly is the role of statistics? Are decisions too often made on a purely emotional basis, neglecting statistical data and proven facts? How important are evidence-based decision processes given that factual</description>
+    </item>
+    
+  </channel>
+</rss>

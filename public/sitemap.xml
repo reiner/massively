@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
-    <loc>/post/lu-cjjj/</loc>
-    <lastmod>2018-03-29T09:15:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/comments-example/</loc>
-    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
-=======
     <loc>/news/post1/</loc>
     <lastmod>2018-04-22T00:00:00+00:00</lastmod>
->>>>>>> massively_customized
   </url>
   
   <url>
@@ -34,12 +24,7 @@
   
   <url>
     <loc>/post/</loc>
-<<<<<<< HEAD
-    <lastmod>2018-03-29T09:15:43+00:00</lastmod>
-    <priority>0</priority>
-=======
     <lastmod>2018-03-23T00:00:00+00:00</lastmod>
->>>>>>> massively_customized
   </url>
   
   <url>
@@ -57,12 +42,7 @@
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>/</loc>
-    <lastmod>2018-03-29T09:15:43+00:00</lastmod>
-=======
     <loc>/categories/</loc>
->>>>>>> massively_customized
     <priority>0</priority>
   </url>
   

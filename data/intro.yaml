@@ -1,8 +1,10 @@
 ---
 title:
-- line: 'Want to know more about... '
-- line: TWIST
-- line: Hackathon
+- line: 'Hackdays'
+
 description:
-- line: Truth within statistics
-- line: 26.8.-27.8.2018
+- line: 'August 25-26, 2018'
+- line: 'Swiss Statistics Meeting @ University of Zurich'
+
+teaser:
+- line: 'Help us unmask twisted truths with statistics'

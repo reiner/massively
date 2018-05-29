@@ -6,39 +6,13 @@
     <description>Recent content in intro on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
-    <lastBuildDate>Thu, 29 Mar 2018 09:15:43 +0000</lastBuildDate>
-=======
     <lastBuildDate>Fri, 23 Mar 2018 00:00:00 +0000</lastBuildDate>
->>>>>>> massively_customized
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
-      <title>lu cjjj</title>
-      <link>/post/lu-cjjj/</link>
-      <pubDate>Thu, 29 Mar 2018 09:15:43 +0000</pubDate>
-      
-      <guid>/post/lu-cjjj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comments example</title>
-      <link>/post/comments-example/</link>
-      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/comments-example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Primis eget imperdiet lorem</title>
-=======
       <title>About TWIST</title>
->>>>>>> massively_customized
       <link>/post/post1/</link>
       <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
       

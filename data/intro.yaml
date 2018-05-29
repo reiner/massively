@@ -1,13 +1,5 @@
 ---
 title:
-<<<<<<< HEAD
-- line: 'Want to know more about... '
-- line: TWIST
-- line: Hackathon
-description:
-- line: Truth within statistics
-- line: 26.8.-27.8.2018
-=======
 - line: 'Hackdays'
 
 description:
@@ -16,4 +8,3 @@ description:
 
 teaser:
 - line: 'Help us unmask twisted truths with statistics'
->>>>>>> massively_customized

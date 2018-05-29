@@ -1,7 +1,13 @@
----
-title: Ideas & Resources
-author: thomas lo russo
-date: '2018-03-23'
----
+﻿+++
+description = "Looking for ideas & resources to ... with?"
+title = "Ideas & Resources"
+type = "page"
++++
 
-Placeholder
+### Thema A
+
+- Datensatz
+
+### Thema B
+
+- Datensatz

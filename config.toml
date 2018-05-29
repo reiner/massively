@@ -32,6 +32,13 @@ SectionPagesManu ="main"
   	identifier="news"
   	url="/news/"
 	weight=4
+	
+		[[menu.main]]
+  	name="Ideas & Resources"
+  	identifier="ideas"
+  	url="/ideas/"
+	weight=5
+
 
 
 	

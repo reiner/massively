@@ -7,7 +7,11 @@
     },
     "right" : {
         "panelheight" : 958,
+<<<<<<< HEAD
         "splitterpos" : 787,
+=======
+        "splitterpos" : 786,
+>>>>>>> massively_customized
         "topwindowstate" : "NORMAL",
         "windowheight" : 996
     }

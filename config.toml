@@ -19,9 +19,9 @@ SectionPagesManu ="main"
   	name="Home"
   	identifier="home"
   	url="/"
-	weight=1
 
    [[menu.main]]
+<<<<<<< HEAD
   	name="About"
   	identifier="about"
   	url="/about/"
@@ -38,6 +38,16 @@ SectionPagesManu ="main"
   	identifier="ideas"
   	url="/ideas/"
 	weight=5
+=======
+  	name="More about Twist"
+  	identifier="abouttwist"
+  	url="/post/post1/"
+	
+   [[menu.main]]
+  	name="More about us"
+  	identifier="about"
+  	url="/about/"
+>>>>>>> parent of f856c47... changes
 
 
 	

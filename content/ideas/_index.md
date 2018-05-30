@@ -1,18 +1,4 @@
 ﻿+++
-<<<<<<< HEAD
-description = "Looking for ideas & resources to ... with?"
-title = "Ideas & Resources"
-type = "page"
-+++
-
-### Thema A
-
-- Datensatz
-
-### Thema B
-
-- Datensatz
-=======
 description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
@@ -51,5 +37,3 @@ Also, we're gathering ideas for potential projects as well as already existing i
 - Geodata of building outlines with building age, Canton of Zurich
 
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich
-
->>>>>>> massively_new_struct

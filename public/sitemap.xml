@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
     <loc>/news/post1/</loc>
     <lastmod>2018-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -19,21 +18,11 @@
   </url>
   
   <url>
-=======
->>>>>>> parent of f856c47... changes
     <loc>/</loc>
     <lastmod>2018-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>/post/</loc>
-    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-=======
->>>>>>> parent of f856c47... changes
     <loc>/post/post1/</loc>
     <lastmod>2017-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -57,13 +46,9 @@
   </url>
   
   <url>
-<<<<<<< HEAD
-    <loc>/ideas/</loc>
-=======
     <loc>/post/</loc>
     <lastmod>2017-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
->>>>>>> parent of f856c47... changes
   </url>
   
   <url>

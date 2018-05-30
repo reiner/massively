@@ -19,6 +19,7 @@ SectionPagesManu ="main"
   	name="Home"
   	identifier="home"
   	url="/"
+	weight=1
 
    [[menu.main]]
   	name="About"

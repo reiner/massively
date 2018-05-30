@@ -12,9 +12,13 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 ## Program
 
 
-|  When?          |
-|--------------------|
-|  August 25-26, 2018 |
+|Time |  Saturday 25.8.2018  |  Sunday 26.8.2018  |
+|--------------------|--------------------|--------------------|
+|09:00 |  Welcome, Data & Challenges presentations, Team building |  Brunch, Teams work together |
+|12:00| Lunch| Lunch |
+|16:00| Quick status update: What do we do / what do we need | Teams' final presentations (max. 45 mins.) |
+|18:00|  Dinner |   |
+|19:00|  Possibility to continue working together |   |
 
 
 |  Where?          |

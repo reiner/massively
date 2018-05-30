@@ -9,16 +9,22 @@ date: '2018-03-23'
 As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. Developers, statisticans, designers, journalists, hackers and citizens of all backgrounds will be working with open data on the **subject of statistics and  emotions, evidence based decision making and fake news**. It is the Pre-Event of the <a href="
 https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich. 
 
-|  When?          |
-|--------------------|
-|  August 25-26, 2018 |
+## Program
+
+
+|Time |  Saturday 25.8.2018  |  Sunday 26.8.2018  |
+|--------------------|--------------------|--------------------|
+|09:00 |  Welcome, Data & Challenges presentations, Team building |  Brunch, Teams work together |
+|12:00| Lunch| Lunch |
+|16:00| Quick status update: What do we do / what do we need | Teams' final presentations (max. 45 mins.) |
+|18:00|  Dinner |   |
+|19:00|  Possibility to continue working together |   |
 
 
 |  Where?          |
 |--------------------|
 | University of Zurich|
 
-Fruitful hackdays depend on fertile ground. Our organizing team is involved in several other events taking place this year, such as <a href="https://makezurich.ch/">MakeZurich vol. 2</a> and the <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wiki-Datathon</a>. TWIST will draw upon the work done at these events. 
 </center> 
 <center>
 <img src="images/banner_sst_homepage.png" alt="Drawing" style="width: 80%;"/><br>

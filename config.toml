@@ -33,11 +33,16 @@ SectionPagesManu ="main"
   	url="/news/"
 	weight=4
 	
+<<<<<<< HEAD
 	[[menu.main]]
+=======
+		[[menu.main]]
+>>>>>>> massively_new_struct
   	name="Ideas & Resources"
   	identifier="ideas"
   	url="/ideas/"
 	weight=5
+<<<<<<< HEAD
 =======
   	name="More about Twist"
   	identifier="abouttwist"
@@ -48,6 +53,9 @@ SectionPagesManu ="main"
   	identifier="about"
   	url="/about/"
 >>>>>>> parent of f856c47... changes
+=======
+
+>>>>>>> massively_new_struct
 
 
 	

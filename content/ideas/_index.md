@@ -1,6 +1,5 @@
 ﻿+++
-description = "Looking for ideas & resources to ... with?"
-title = "Ideas & Resources"
+description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 

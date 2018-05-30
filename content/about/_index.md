@@ -7,7 +7,7 @@ type = "page"
 
 As part of the 2018 <a href="https://www.statistiktage.ch/en/">Swiss Statistics Meeting</a>, hackdays will be held for the first time. During the 
 hackdays, interested participants will research the potential of various data sets. The attendeees will work together in interdisciplinary teams to explore the data and master the challenges. The different skills and backgrounds within 
-the different teams will allow for creativity and the development of new solutions and ideas.
+the different teams will allow for creativity and the development of new solutions and ideas. 
 <br>
 
 #### Free participation & family-friendly setting
@@ -45,6 +45,8 @@ Gonzalo Casas, Open Network Infrastructure Network Association /
 Muriel Buri & Dorothea Hug Peter, University of Zurich & Zurich R User-Group 
 
 #### Upcoming Events
+
+Fruitful hackdays depend on fertile ground. Our organizing team is involved in several other events taking place this year, such as <a href="https://makezurich.ch/">MakeZurich vol. 2</a> and the <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich_Datathon">Wiki-Datathon</a>. TWIST will draw upon the work done at these events. 
 
 June 22-30, 2018, <a href="https://makezurich.ch/">MakeZurich vol. 2</a> 
 

@@ -3,7 +3,7 @@ description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 
-We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview on the not yet published datasets, which will hopefully be available by then.
+We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview on the not yet published datasets, which will hopefully be open by then.
 
 ### In Evaluation:
 

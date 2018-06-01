@@ -13,6 +13,22 @@ SectionPagesManu ="main"
 [params.settings]
     googleanalytics = "UA-118141496-1"
     disqus = "hugo-massively"
+	
+
+[params.venue]
+name = "University of Zurich"
+street = "Rämistrasse 71"
+zipCode = "8006"
+city = "Zürich"
+state = "Zürich"
+country = "Switzerland"
+mapboxPublicToken = "pk.eyJ1Ijoic3RhdGlzdGlremgiLCJhIjoiY2podzBmYnltMDJkdzNxcGh5ODlvbm9hOCJ9.1l4OyU-HbmPy15kZu8fXYA"
+mapboxStyle = "emerald"
+mapboxZoom = 16
+
+[params.venue.coords]
+latitude = 47.37462
+longitude = 8.54852
     
 [menu]
     [[menu.main]]
@@ -38,6 +54,8 @@ SectionPagesManu ="main"
   	identifier="ideas"
   	url="/ideas/"
 	weight=5
+	
+	
 
 
 	

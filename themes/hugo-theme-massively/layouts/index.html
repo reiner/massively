@@ -33,7 +33,8 @@
 					     {{.Content}}
 
 					  <!-- Element um .md content aus _index.md anzuziehen!-->
-						 
+					  
+					    {{ partial "venue.html" . }}
 						 
 						{{ if eq .Site.Params.Posts.featuredpost "true" }}
 						{{ partial "posts/featured.html" (dict "firstpost" $firstPost) }}

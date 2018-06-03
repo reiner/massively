@@ -18,7 +18,7 @@ Also, we're gathering ideas for potential projects as well as already existing i
   
 - Detailed data on all the registered motorvehicles since 2012, Canton Zurich
 
-- Detailled passenger-counts of selected tram stations, City of Zurich
+- Detailed passenger-counts of selected tram stations, City of Zurich
 
 #### Health
 

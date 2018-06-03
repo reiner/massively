@@ -13,15 +13,15 @@
                 <h3 class="mx-3 event-primary-text">
                   <b>{{ .name }}</b>
                 </h3>
-                <p class="mx-3 small">
+                <p>
                   {{ .street }}
                   <br/> {{ .zipcode }} {{ .city }}
                   <br/> {{ .country }}
                 </p>
 
                 {{ if .coords }}
-                  <p class="small mx-3 my-0">© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a></p>
-                  <p class="small mx-3 my-0">© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></p>
+                  <p class="small">© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a></p>
+                  <p class="small">© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></p>
                 {{ end }}
         </div>
     </section>

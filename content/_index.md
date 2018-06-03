@@ -9,7 +9,7 @@ date: '2018-03-23'
 As part of the 2018 Swiss Statistics Meeting, hackdays will be held for the first time. Developers, statisticans, designers, journalists, hackers and citizens of all backgrounds will be working with open data on the **subject of statistics and  emotions, evidence based decision making and fake news**. It is the Pre-Event of the <a href="
 https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich. 
 
-## Program
+## Schedule
 
 
 |Time |  Saturday 25.8.2018  |  Sunday 26.8.2018  |

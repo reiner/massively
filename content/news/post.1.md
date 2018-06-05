@@ -3,7 +3,7 @@ title = '«Ideas & Resources» web-page'
 slug = 'post1'
 image = 'images/idea.jpg'
 date = "2018-06-05T00:00:00"
-description = 'The Twist2018 «Ideas & Resources» web-page is live!”'
+description = 'The Twist2018 «Ideas & Resources» web-page is live!'
 +++
 
 We are currently collecting ideas and compiling a list of exciting data sets to be used at the Twist-Hackdays. There will be no prescribed challenges. We will provide a pool of ideas which will serve as a source of inspiration and a solid starting point for potential Hackday-projects.

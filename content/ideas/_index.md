@@ -39,7 +39,7 @@ Also, we're gathering ideas for potential projects as well as already existing i
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich
 
 
-## Already existing interesting sources
+## Already available data sources
 
 ##### Punctuality Data (Public transportation)
 

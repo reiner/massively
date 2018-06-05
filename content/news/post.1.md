@@ -1,6 +1,6 @@
 ﻿+++
 title = '«Ideas & Resources» web-page'
-slug = 'post1'
+slug = 'ideas_page_live'
 image = 'images/idea.jpg'
 date = "2018-06-05T00:00:00"
 description = 'The Twist2018 «Ideas & Resources» web-page is live!'

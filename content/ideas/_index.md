@@ -6,11 +6,11 @@ type = "page"
 We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview over the not yet published datasets, which will - hopefully - be open by then.
 Also, we're gathering ideas for potential projects as well as already existing interesting open data sources. This page will be updated on a regularly basis over the next few weeks.
 
-### Drafts of potential hackathon-projects
+### Drafts of potential hackathon-projects (more details to follow shortly)
 
-**Linked Open Data** : which "hidden truths" can be made visible when open data can be linked and joined toghether easily? Datasources: Wikidata, Stadt Zürich, Swisstopo.
+**Linked Open Data** : which "hidden truths" can be made visible when open data can be linked and joined toghether easily?
 
-**OpenSpending** : What is taxpayers' money spent for? Which claims around public spending generally considered valid are facts, which are myths? Datasources: municipal audit commission - API, City of Zurich/ Municipal Finance Portrait, Canton of Zurich
+**OpenSpending** : What is taxpayers' money spent for? Which claims around public spending generally considered valid are facts, which are myths? 
 
 ## Publication as opendata in evaluation
 
@@ -39,7 +39,7 @@ Also, we're gathering ideas for potential projects as well as already existing i
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich
 
 
-## Alread existing interesting sources
+## Already existing interesting sources
 
 ##### Punctuality Data (Public transportation)
 

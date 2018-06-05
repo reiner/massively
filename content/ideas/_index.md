@@ -3,7 +3,7 @@ description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 
-We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview over the not yet published datasets, which will - hopefully - be open by then.
+We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview of the not yet published datasets, which will - hopefully - be open by then.
 Also, we're gathering ideas for potential projects as well as already existing interesting open data sources. This page will be updated on a regularly basis over the next few weeks.
 
 ### Drafts of potential hackathon-projects (more details to follow shortly)

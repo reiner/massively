@@ -20,6 +20,8 @@ Also, we're gathering ideas for potential projects as well as already existing i
 
 - Detailed passenger-counts of selected tram stations, City of Zurich
 
+- Aggregated data on distances covered by bike and routes, Bike2Work Challenge (request pending)
+
 #### Health
 
 - Data on weekly case numbers (national level) of infectious diseases, tick-borne diseases, influenza-like diseases
@@ -73,7 +75,7 @@ Also, we're gathering ideas for potential projects as well as already existing i
 - [Canton of Zug](https://opendata.swiss/de/organization/kanton-zug)
 - [Canton of Zurich](https://opendata.swiss/de/organization/kanton-zuerich)
 - [City of Berne](https://opendata.swiss/de/organization/stadt-bern)
-- [City of Zurich](https://opendata.swiss/de/organization/stadt-zuerich)
+- [City of Zurich](https://data.stadt-zuerich.ch/)
 - [Open Data Platform Swiss Public Transport](https://opentransportdata.swiss/)
 - [Open Food Data Packages School of Data Working Group](http://openfood.schoolofdata.ch/)
 - [OpenGLAM CH Working Group](https://opendata.swiss/de/organization/openglam)

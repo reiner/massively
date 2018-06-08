@@ -8,7 +8,7 @@ description = 'Paticipate at the TWIST-Hackdays and contribute to bring insight 
 
 How are public services financed? Where does my tax-money go? Which claims around public spending generally considered valid are facts, which are myths? Help us getting sense of public finances, unveil hidden patterns and opening up public financial accounts to a broader public by analyzing and visualizing open data.
 
-#### Get your hands on open spending and  data at the TWIST-Hackdays!
+#### Get your hands on open spending data at the TWIST-Hackdays!
 
 Since 1990, the expenditures of Zurich's municipalities have been in step with those of the canton. The costs of education and social services have increased particularly sharply. 
 However, there are great differences between spending categories as well as between individual municipalities. The Canton and the City of Zurich have opened up highly detailed data on local finances over the last years. 

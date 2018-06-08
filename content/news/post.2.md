@@ -34,7 +34,7 @@ We encourage participants at TWIST to engage with open fiscal & spending data to
 
 This is just a list of suggestions. Participants are free to choose what project they want to realize.
 
-Help citizens and other stakeholders gain new insights and get a better understanding on public finances.
+Want to help citizens and other stakeholders gain new insights and get a better understanding on public finances? Then register now!
 
 ## REGISTER NOW FOR THE TWIST-Hackdays!
 

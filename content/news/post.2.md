@@ -6,17 +6,17 @@ date = "2018-06-05T00:00:00"
 description = 'Paticipate at the TWIST-Hackdays and contribute to bring insight into public finances.'
 +++
 
-How are public services financed? Where does my tax-money go? Which claims around public spending generally considered valid are facts, which are myths? Help us getting sense of open fiscal data, unveil hidden patterns and opening up public finances to a broader public by analyzing and visualizing open fiscal data.
+How are public services financed? Where does my tax-money go? Which claims around public spending generally considered valid are facts, which are myths? Help us getting sense of public finances, unveil hidden patterns and opening up public financial accounts to a broader public by analyzing and visualizing open data.
 
-#### Get your hands on open spending data at the TWIST-Hackdays!
+#### Get your hands on open spending and  data at the TWIST-Hackdays!
 
 Since 1990, the expenditures of Zurich's municipalities have been in step with those of the canton. The costs of education and social services have increased particularly sharply. 
 However, there are great differences between spending categories as well as between individual municipalities. The Canton and the City of Zurich have opened up highly detailed data on local finances over the last years. 
-Get your hands on this data and help us bringing light into public finances! Help us to find ‘truth’ and increase transparency within the complex field of public finances.
+Get your hands on this data and help us bringing light into public finances! Help us to find ‘truth’ and increase transparency within the complex field of municipal budgets, spending and investment.
 
 #### NEW Municipal Audit Commission API
 
-The City of Zurich is soon opening up the Municipal Audit Commission API. Budgets as well as investment- and effective spending data of all the cities departments and institutions can be easily accessed. 
+The City of Zurich is soon opening up the Municipal Audit Commission API. Budgets as well as investment- and effective spending data of all the city's administrative units and institutions can be easily accessed. 
 Also for all the other municipalities in the Canton of Zurich plenty of comparably detailed data on taxes, revenues as well as investment and spending is openly available. 
 By recurring to these sources, answers to a broad variety of questions can be given. 
 How much have municipalities spent for their executive members salaries? 
@@ -27,10 +27,12 @@ How much have they invested in safety of their citizens? For infrastructure or s
 We encourage participants at TWIST to engage with open fiscal & spending data to:
       
 - unveil (hidden?) patterns by visualizing the data or employing innovative statistical methods
-- seeking explanations for patterns in spending data with inferential methods 
-- trying to predict future spending - or even tax raises or reductions - with forecasting tools
-- creating visualizations and tools which make spending data more comprehensible and accessible to a broader public… 
-- And much more... participants are free to choose what project they want to realise.
+- seek explanations for patterns in spending data with inferential methods 
+- try to predict future spending - or even tax raises or reductions - with forecasting tools
+- create visualizations and tools which make spending data more comprehensible and accessible to a broader public 
+- And much more!
+
+This is just a list of suggestions. Participants are free to choose what project they want to realize.
 
 Help citizens and other stakeholders gain new insights and get a better understanding on public finances.
 

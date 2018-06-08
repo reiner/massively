@@ -16,7 +16,7 @@ Get your hands on this data and help us bringing light into public finances! Hel
 
 #### NEW Municipal Audit Commission API
 
-The City of Zurich is soon opening up the Municipal Audit Commission API. Budgets as well as investment- and effective spending data of all the city's administrative units and institutions can be easily accessed. 
+The City of Zurich is soon opening up the Municipal Audit Commission API. Budgets as well as investment- and effective spending data of all the city's administrative units and institutions can thus be easily accessed. 
 Also for all the other municipalities in the Canton of Zurich plenty of comparably detailed data on taxes, revenues as well as investment and spending is openly available. 
 By recurring to these sources, answers to a broad variety of questions can be given. 
 How much have municipalities spent for their executive members salaries? 

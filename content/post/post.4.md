@@ -14,9 +14,7 @@ For data to sprout, it has to be [available to everyone to access, use and share
 
 #### Second step: Cultivating the data ecosystem
 
-[Metadata](http://www.web.statistik.zh.ch/cms_vis/openDataBeer_NoMetaDataNoFuture.pdf) is the solid ground, where data lives on. Together with connections to other data sources it forms the data ecosystem. But linking different data sources can be a pain. Linked Open Data (LOD) are the painkillers without side effects. 
-
-This technology is not new at all. A great deal of energy is currently being invested by various Swiss administrative units to publish their data as LOD. The City of Zurich, for example, is working intensively to transform all data in its Statistical Yearbooks into Linked Open Data. By the end of August, over 30 million data triplets will be queryable via SPARQL and linkable to other data sources. 
+[Metadata](http://www.web.statistik.zh.ch/cms_vis/openDataBeer_NoMetaDataNoFuture.pdf) is the solid ground, where data lives on. Together with connections to other data sources it forms the data ecosystem. But linking different data sources can be a pain. Linked Open Data (LOD) are the painkillers without side effects. This technology is not new at all. A great deal of energy is currently being invested by various Swiss administrative units to publish their data as LOD. The City of Zurich, for example, is working intensively to transform all data in its Statistical Yearbooks into Linked Open Data. By the end of August, over 30 million data triplets will be queryable via SPARQL and linkable to other data sources. 
 As participant of TWIST2018 you will be among the first to work with these new LOD!
 
 ####  Third  step: Nurture data literacy
@@ -29,6 +27,8 @@ Imagine a future, where data from statistical offices, metadata from opendata.sw
 The future is already here:
 
 https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem
+
+<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="images/observable.png" alt="Observable" style="width: 100%;"/></a><br>
 
 This is an observable notebook, “an interactive, editable document defined by code. It’s a computer program, but one that’s designed to be easier to read and write by humans.” (Mike Bostock)
 If you want to know more about observable notebooks, you can start with reading this short introduction: https://beta.observablehq.com/@mbostock/introduction-to-notebooks.

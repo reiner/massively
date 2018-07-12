@@ -2,7 +2,7 @@
 title = 'Three steps from data desert to a thriving data ecosystem'
 slug = 'three_steps'
 image = 'images/dataEcoSystem.jpg'
-date = "2018-05-12T00:00:00"
+date = "2018-07-12T00:00:00"
 description = 'Join the TWIST-Hackdays and dive into the linked open data future.'
 +++
 

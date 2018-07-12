@@ -6,10 +6,20 @@
     <description>Recent content in Posts on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Three steps from data desert to a thriving data ecosystem</title>
+      <link>/post/three_steps/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/three_steps/</guid>
+      <description>Isolated data is information dryland. Data needs to be rooted in its context to blossom and if we want it to thrive, data needs to live in a networked ecosystem.
+First step: Let the data sprout For data to sprout, it has to be available to everyone to access, use and share. At TWIST2018 we work with Open Data. And we want to work with you, to find innovative ways to analyse, visualise and combine data.</description>
+    </item>
     
     <item>
       <title>Bring insight into public finances</title>

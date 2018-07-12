@@ -6,7 +6,6 @@ date = "2018-05-12T00:00:00"
 description = 'Join the TWIST-Hackdays and dive into the linked open data future.'
 +++
 
-
 Isolated data is information dryland. Data needs to be rooted in its context to blossom and if we want it to thrive, data needs to live in a networked ecosystem. 
 
 #### First step: Let the data sprout
@@ -36,4 +35,3 @@ If you want to know more about observable notebooks, you can start with reading 
 <center><h4>REGISTER NOW FOR THE TWIST-Hackdays!</h4></center>
 
 <center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center>
-

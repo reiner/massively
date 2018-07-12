@@ -28,7 +28,7 @@ The future is already here:
 
 https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem
 
-<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="images/observable.png" alt="Observable" style="width: 100%;"/></a><br>
+<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="/images/observable.png" alt="Observable" style="width: 100%;"/></a><br>
 
 This is an observable notebook, “an interactive, editable document defined by code. It’s a computer program, but one that’s designed to be easier to read and write by humans.” (Mike Bostock)
 If you want to know more about observable notebooks, you can start with reading this short introduction: https://beta.observablehq.com/@mbostock/introduction-to-notebooks.

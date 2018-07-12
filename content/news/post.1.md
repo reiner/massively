@@ -23,7 +23,7 @@ In order to work with data, we need a set of skills that enables us to find, ext
 
 ####  The thriving data ecosystem future
 
-<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="/images/observable2.png" alt="Observable" style="float:right;width:50%;height:10%; border="6";/></a>
+<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="/images/observable2.png" alt="Observable" style="float:right;width:50%;height:10%;border-width: 17px; border-color: white; border-style: solid;"/></a>
 Imagine a future, where data from statistical offices, metadata from opendata.swiss, information from wikipedia, maps from swisstopo and layers from OpenStreetMap all work together to make the world a better place. 
 The future is already here:
 

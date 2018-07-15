@@ -1,3 +1,0 @@
-- delete redundant news folder (replace with posts-folder) 
-- link news tab with post folder (or inverse)
-- move about sections into a single page ?

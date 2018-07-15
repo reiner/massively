@@ -1,38 +1,44 @@
-﻿+++
-title = 'Three steps from data desert to a thriving data ecosystem'
-slug = 'three_steps'
-image = 'images/dataEcoSystem.jpg'
-date = "2018-07-12T00:00:00"
-description = 'Join the TWIST-Hackdays and dive into the linked open data future.'
++++
+title = 'Crowdsourced open data from «Züri wie neu»'
+slug = 'zueri_wie_neu'
+image = 'images/zueri_wie_neu.jpg'
+date = "2018-07-14T00:00:00"
+description = 'Get your hands on crowdsourced "Züri wie neu"-data at the TWIST-Hackdays'
 +++
 
-Isolated data is information dryland. Data needs to be rooted in its context to blossom and if we want it to thrive, data needs to live in a networked ecosystem. 
+While we strive to publish as many interesting new open data for TWIST as possible, it is worth taking a look at already existing open data. In this post we would like to give you a brief outlook over the crowdsourced open data from the application [«Züri wie neu»](https://www.zueriwieneu.ch/). We think that there are still some hidden, so far undiscovered, truths to be found.
 
-#### First step: Let the data sprout
+#### The application and derived open data  ##
+[«Züri wie neu»](https://www.zueriwieneu.ch/) is an online platform of the Zurich city administration in order to facilitate the reporting of damaged infrastructure by citizens. It went online in 2013. Since then it is moderated by the city administration and managed transparently with all – anonymized - reports available as open data. 
 
-For data to sprout, it has to be [available to everyone to access, use and share](https://theodi.org/article/what-is-open-data-and-why-should-we-care/).  At TWIST2018 we work with Open Data. And we want to work with you, to find innovative ways to analyse, visualise and combine data. To think out of the box, the data has to get out of the box as well. 
+![Züri wie neu Application](http://statistik.stadt-zuerich.ch/Modules/ogd_bspe/twist/zwn/zwn.png)
 
-#### Second step: Cultivating the data ecosystem
+The [open dataset derived from «Züri wie neu»](https://data.stadt-zuerich.ch/dataset/zueriwieneu-meldungen) currently contains around 14’000 reports (!). It includes the exact georeferenced location of the infrastructure damage, the time of recording, the exact description, the categorisation, the processing status and the time when the report was completed. For approximately 1’700 messages, even transmitted photos can be referred to it. All data is available in open geo formats and can also be queried via the [open interface Open311](https://de.wikipedia.org/wiki/Open311). Open311 is an open standard ([GeoReport v2](http://wiki.open311.org/GeoReport_v2/)), which is used internationally by numerous other cities, such as e.g. Bonn, Toronto or Lisbon. This makes the data comparable with [other cities]( http://wiki.open311.org/GeoReport_v2/Servers/).
 
-[Metadata](http://www.web.statistik.zh.ch/cms_vis/openDataBeer_NoMetaDataNoFuture.pdf) is the solid ground, where data lives on. Together with connections to other data sources it forms the data ecosystem. But linking different data sources can be a pain. Linked Open Data (LOD) are the painkillers without side effects. This technology is not new at all. A great deal of energy is currently being invested by various Swiss administrative units to publish their data as LOD. The City of Zurich, for example, is working intensively to transform all data in its Statistical Yearbooks into Linked Open Data. By the end of August, over 30 million data triplets will be queryable via SPARQL and linkable to other data sources. 
-As participant of TWIST2018 you will be among the first to work with these new LOD!
+#### Use cases 
+It is obvious that the spatial and temporal components of these data usually invite for geo analysis and cartographic visualisations, such as heatmaps or animated maps. Here is an example of an animation which shows all new entries by citizens in 2017.
 
-####  Third  step: Nurture data literacy
+![animation zwn reports in 2017](http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/ezgif_zwn_2017Plus.gif)
 
-In order to work with data, we need a set of skills that enables us to find, extract, read, analyse and visualize data. All this skills together are called [data literacy](https://schoolofdata.org/2016/01/08/research-results-part-1-defining-data-literacy/). At TWIST2018 we have experts in all these fields. We learn from you, you learn from us. 
+But there might be further interesting facts hidden in the data. The precise descriptions of the damage written by the users seem especially interesting. Since it is unstructured text, an analysis for further facts is not trivial. But maybe a challenge for you?
 
-####  The thriving data ecosystem future
+In the media, «Züri wie neu» was often described as a [«sourpuss-app»](http://www.20min.ch/schweiz/zuerich/story/Die--Noergler-App--ist-ein-Erfolg-14633442). But is this really the case or can it be refuted? 
 
-<a href="https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem"><img src="/images/observable2.png" alt="Observable" style="float:right;width:50%;height:10%;border-width: 17px; border-color: white; border-style: solid;"/></a>
-Imagine a future, where data from statistical offices, metadata from opendata.swiss, information from wikipedia, maps from swisstopo and layers from OpenStreetMap all work together to make the world a better place. 
-The future is already here:
+It would also be interesting to know how different factors, such as for example the weather, seasons, holidays, rein dates, major events or the ascent and descent of the O-bikes influence the reports. 
 
-https://beta.observablehq.com/@mmznrstat/a-thriving-data-ecosystem
+Furthermore, it could be helpful for the administration, if the category of the detail description could be automatically derived from the text and/or a picture in order to be assigned to the responsible office.
 
-This is an observable notebook, “an interactive, editable document defined by code. It’s a computer program, but one that’s designed to be easier to read and write by humans.” (Mike Bostock)
-If you want to know more about observable notebooks, you can start with reading this short introduction: https://beta.observablehq.com/@mbostock/introduction-to-notebooks.
+Or would it even be possible to predict certain damages by meshing the data up with different other open data (e.g. population structure, infrastructure or social media)?
 
-<center><h4>REGISTER NOW FOR THE TWIST-Hackdays!</h4></center>
+The data certainly invites to play around and come up with novel insights or unconventional ideas. For example in 2017 all report titles have been stored and colored according to its category and been put into one big poster for the exhibition [«Urban Data Patterns»](http://hahn-zimmermann.ch/projekte/urban-data-patterns).
 
-<center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center>
+![full extent of the printout](http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_long_HZ_1_4_01.jpg)
 
+![detail of the printout](http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_detail_HZ_1_4_01.jpg)
+
+![piled after categories](http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_piles_HZ_1_4_01.jpg)
+
+
+#### Further Links: 
+- Detailed study results carried out at the UNI Bern: https://zueriwieneu.fdn.iwi.unibe.ch/ 
+- Art project «urban data patterns»: http://hahn-zimmermann.ch/projekte/urban-data-patterns 

@@ -1,25 +1,19 @@
+﻿+++
+title = 'The «Ideas & Resources» web-page is live!'
+slug = 'ideas_page_live'
+image = 'images/idea.jpg'
+date = "2018-06-05T00:00:00"
+description = 'The "Ideas & Resources" page will serve as a source of inspiration for Hackday-projects.'
 +++
-title = 'Swiss Statistics Meeting 2018'
-slug = 'post2'
-#image = 'images/bg.jpg'
-date = "2017-04-18T00:00:00"
-description = 'The Swiss Statistics Meeting will be held under the motto: “Statistic and emotions”'
-+++
 
-While statistics is an exact science, emotions by contrast are subjective, often irrational and difficult 
-to measure. Despite or perhaps even due to this contrast, statistics and emotions are increasingly 
-considered together: **if moods and feelings increasingly define what is true and false, what exactly is 
-the role of statistics**? 
+We are currently collecting ideas and compiling a list of exciting data sets to be used at the Twist-Hackdays. There will be no prescribed challenges. We will provide a pool of ideas which will serve as a source of inspiration and a solid starting point for potential Hackday-projects.
+We do our best to make until yet undisclosed data sources open soon, which could be used for the first time at the TWIST-Hackdays. Find an overview of the planed open datasets on our "Ideas & Resources"-webpage:
+<center><a href="/ideas" class="button back alt2">Ideas & Resources Webpage</a></center>
 
-- Are decisions too often made on a purely emotional basis, neglecting statistical  data  and  proven  facts?  
+ We’ll update this page regularly, as we’re currently in the process of gathering ideas & data for the event. And of course, we also refer to already existing, interesting open datasets which could be useful for the hackdays.
 
-- How  important  are  evidence-based  decision  processes  given  that  factual correctness is becoming less and less relevant in politics and the economy? 
+So stay tuned! 
 
-- How do statisticians deal  with  “fake  news”?  What  emotions  do  surveys  or  statistical  results  trigger  among  the  public?  
+<center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center>
 
-- What biases and resentments exist compared with fact-based statistics?
 
-In the course of these three days, well-known figures from the field of statistics, the economy, academia, politics and culture will specifically discuss these issues. A number of open workshops will 
-offer the opportunity to exchange views on a wide selection of topics.
-
-https://www.statistiktage.ch/en/

@@ -59,7 +59,7 @@ June 16, 2018, <a href="https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Z
 [Wikidata Workshop @ Digital Festival 2017](https://www.wikidata.org/wiki/Wikidata:Events/Wikidata_Zurich)
 
 [MakeZurich Vol.1](https://makezurich.ch/)
-
-<a class="twitter-timeline" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
+<center>
+<a class="twitter-timeline" width="50%" href="https://twitter.com/TWIST2018?ref_src=twsrc%5Etfw">Tweets by TWIST2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</center>
 

@@ -2,7 +2,7 @@
 title = 'Bring insight into public finances'
 slug = 'public_finances'
 image = 'images/openspending.jpg'
-date = "2018-06-05T00:00:00"
+date = "2018-06-06T00:00:00"
 description = 'Paticipate at the TWIST-Hackdays and contribute to bring insight into public finances.'
 +++
 

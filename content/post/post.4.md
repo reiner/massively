@@ -6,7 +6,7 @@ date = "2018-07-17T00:00:00"
 description = 'Get your hands on crowdsourced "Züri wie neu"-data at the TWIST-Hackdays!'
 +++
 
-While we strive to publish as many interesting new open data for TWIST as possible, it is worth taking a look at already existing open data. In this post we would like to give you a brief outlook over the crowdsourced open data from the application [«Züri wie neu»](https://www.zueriwieneu.ch/). We think that there are still some hidden, so far undiscovered, truths to be found.
+While we strive to publish as many interesting new open data for TWIST as possible, it is worth taking a look at already existing open data. In this post we would like to give you a brief outlook over the crowdsourced open data from the application [«Züri wie neu»](https://www.zueriwieneu.ch/). There might still be some hidden, so far undiscovered, truths to be found in it.
 
 #### The application and derived open data  ##
 [«Züri wie neu»](https://www.zueriwieneu.ch/) is an online platform of the Zurich city administration in order to facilitate the reporting of damaged infrastructure by citizens. It went online in 2013. Since then it is moderated by the city administration and managed transparently with all – anonymized - reports available as open data. 
@@ -24,10 +24,9 @@ But there might be further interesting facts hidden in the data. The precise des
 
 In the media, «Züri wie neu» was often described as a [«sourpuss-app»](http://www.20min.ch/schweiz/zuerich/story/Die--Noergler-App--ist-ein-Erfolg-14633442). But is this really the case or can it be refuted? 
 
-It would also be interesting to know how different factors, such as for example the weather, seasons, holidays, rein dates, major events or the ascent and descent of the O-bikes influence the reports. 
+It would also be interesting to know how different factors, such as for example the weather, seasons, holidays, rein dates, major events or the ascent and descent of the O-bikes impact the reports.
 
-Furthermore, it could be helpful for the administration, if the category of the detail description could be automatically derived from the text and/or a picture in order to be assigned to the responsible office.
-
+Furthermore, it could be helpful for the administration, if the category of the detail description could be automatically derived from the text and/or a picture in order to be assigned to the responsible office. The dataset is thus well suited for machine-learning based classification techniques.
 Or would it even be possible to predict certain damages by meshing the data up with different other open data (e.g. population structure, infrastructure or social media)?
 
 The data certainly invites to play around and come up with novel insights or unconventional ideas. For example in 2017 all report titles have been stored and colored according to its category and been put into one big poster for the exhibition [«Urban Data Patterns»](http://hahn-zimmermann.ch/projekte/urban-data-patterns).

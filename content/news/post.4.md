@@ -32,9 +32,9 @@ Or would it even be possible to predict certain damages by meshing the data up w
 
 The data certainly invites to play around and come up with novel insights or unconventional ideas. For example in 2017 all report titles have been stored and colored according to its category and been put into one big poster for the exhibition [«Urban Data Patterns»](http://hahn-zimmermann.ch/projekte/urban-data-patterns).
 
-<img src="http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_long_HZ_1_4_01.jpg" alt="full extent of the printout" style="width: 90%;"/><br>
+<div><img src="http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_long_HZ_1_4_01.jpg" alt="full extent of the printout" style="width: 90%;"/></div>
 
-<img src="http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_detail_HZ_1_4_01.jpg" alt="detail of the printout" style="width: 90%;"/><br>
+<div><img src="http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_detail_HZ_1_4_01.jpg" alt="detail of the printout" style="width: 90%;"/></div>
 
 <img src="http://statistik.stadt-zuerich.ch/modules/ogd_bspe/twist/zwn/urbanPatterns_piles_HZ_1_4_01.jpg" alt="piled after categories" style="width: 90%;"/><br>
 

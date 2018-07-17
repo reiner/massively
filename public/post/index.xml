@@ -6,17 +6,17 @@
     <description>Recent content in Posts on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Crowdsourced open data from «Züri wie neu»</title>
-      <link>/post/zueri_wie_neu/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      <link>/post/zueri_wie_neu.png/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/zueri_wie_neu/</guid>
+      <guid>/post/zueri_wie_neu.png/</guid>
       <description>While we strive to publish as many interesting new open data for TWIST as possible, it is worth taking a look at already existing open data. In this post we would like to give you a brief outlook over the crowdsourced open data from the application «Züri wie neu». We think that there are still some hidden, so far undiscovered, truths to be found.
 The application and derived open data «Züri wie neu» is an online platform of the Zurich city administration in order to facilitate the reporting of damaged infrastructure by citizens.</description>
     </item>

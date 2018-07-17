@@ -1,6 +1,6 @@
 ﻿+++
 title = 'Crowdsourced open data from «Züri wie neu»'
-slug = 'zueri_wie_neu.png'
+slug = 'zueri_wie_neu'
 image = 'images/zueri_wie_neu.jpg'
 date = "2018-07-17T00:00:00"
 description = 'Get your hands on crowdsourced "Züri wie neu"-data at the TWIST-Hackdays!'

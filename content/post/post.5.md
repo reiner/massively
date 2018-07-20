@@ -8,7 +8,7 @@ description = 'Participate at the TWIST-Hackdays and contribute to develop an op
 
 #### Geocoding and reverse geocoding
 
-Addresses represent an important reference dataset for many data analysis. In the GIS domain addresses are the basis for many customer and business analysis.
+Addresses represent an important reference dataset for data analyses. In the GIS domain addresses are the essential basis for customer- and business analyses.
 Addresses are also pervasive on the web. When we search for directions on google maps we use addresses: behind the scene, these addresses are converted to geographic coordinates, which are then used for the routing analysis. 
 Now the other way around. When we click on a street in google maps we get a tooltip showing the address information of that location: behind the scene, geographic coordinates are converted to addresses.
 The process of converting addresses to geographic coordinates is called “geocoding”, while the inverse process (converting geographic coordinates to addresses) is called reverse geocoding.

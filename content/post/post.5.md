@@ -1,9 +1,9 @@
-﻿+++
++++
 title = 'Give your address a position. Give your position an address.'
 slug = 'opengeocoder'
 image = 'images/geocoder.jpg'
 date = "2018-07-20T00:00:00"
-description = 'Participate at the TWIST-Hackdays and contribute to develop and open geocoder'
+description = 'Participate at the TWIST-Hackdays and contribute to develop an open geocoder'
 +++
 
 #### Geocoding and reverse geocoding

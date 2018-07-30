@@ -52,7 +52,7 @@ empl <- read.csv("https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv", sep
 The raster package is the reference R package for raster processing. We can recur to it to transform the data into R-friendly raster objects. With the tmap-package, it is possible to take a first quick glimpse at the data. 
 
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE, out.width='100%'}
 
 library(raster)
 
@@ -114,7 +114,7 @@ So, this is how the data can be imported and quickly visualized... lets move on 
 
 The OSM-layers can be imported into R with the osmdata-package. In combination with the sf-package, R's (new) workhorse for spatial data, we can extract the layers of interest handily.  
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, out.width='100%'}
 
 library(units)
 library(sf)
@@ -154,9 +154,9 @@ That's all it takes to load the data into R and to get ready for further analysi
 
 [2. Employment](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv) 
 
-<center>
-## REGISTER NOW FOR THE TWIST-Hackdays!
-</center>
+
+<center><h2>REGISTER NOW FOR THE TWIST-Hackdays!</h2></center>
+
 <center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center>
 
 

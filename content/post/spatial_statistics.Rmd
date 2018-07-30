@@ -1,0 +1,162 @@
+---
+title: "Spatial statistics at TWIST2018"
+date: 2018-07-30T14:41:19+02:00
+image : "images/spatial_stats.jpg"
+description: "Work with the spatially most disaggregated statistical (open) data on the canton of Zurich at the TWIST-Hackdays!"
+draft: true
+---
+
+Soon, the spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Particpants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
+
+In anticipation of the integration of into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received at TWIST by participants working with the data will help us to shape the final form of the data-export implemented in the GIS-ZH-webservice. 
+
+The spatialy disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine this data with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!
+
+#### Spatial analyses and cartographic Explorations with OpenStreetMap
+
+It would be particularly interesting to combine the spatial statistics layers with other data sources, such as the openstreetmap-data for instance. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets.
+
+For instance, one might explore density-patterns of certain data points of specific types - such as bars, shops, supermarkes, pharmacies, fitness centres, playgrounds and so on - when set into relation with population and employment. The spatial statistics layers do not only contain totals, but detailed structure data in form of population age categories as well as industry information in the case of employment. They therefore allow for adressing a myriad of questions of spatial character.
+
+If you're a **spatially** oriented mind and want to be among the first to get your hands on the **spatially** most disaggregated statistical (open) data on the canton of Zurich, we expect you at TWIST!
+
+However, even if you're not into coding and data, but just looking for a spatial 'niche' where to open up a new bar in an area with numberous potential customers but with not-so numberous competitors in proximity, join us at the TWIST-Hackdays to see, whether we might help you finding it.
+
+#### This all sounds wonderful, but where do I start?
+
+The two raster-datasets are available for download. Followingly, we provide some code to load it into R and to take a first glipmse at it. 
+
+Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively 'bulks' of OSM-data are available for donwload here:
+
+https://download.geofabrik.de/ 
+
+
+####statistics layers
+
+The data-files are available on our web-server.
+```{r, message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(tmap)
+
+
+# population data - values for raster-cells with population totals > 10 are 
+pop <- read.csv("https://www.web.statistik.zh.ch/twist/population_raster_ha.csv")
+
+empl <- read.csv("https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv", sep=";")
+
+```
+
+####Load Population & Employment Raster Data
+
+The raster package is the reference R package for raster processing. We can recur to it to transform the data into R-friendly raster objects. With the tmap-package, it is possible to take a first quick glimpse at the data. 
+
+
+```{r, warning=FALSE, message=FALSE}
+
+library(raster)
+
+# create spatial points data frame
+coordinates(pop) <- ~ GKODE_HEKTARMP + GKODN_HEKTARMP
+# coerce to SpatialPixelsDataFrame
+gridded(pop) <- TRUE
+
+# plot(pop)
+
+# Generate RasterBrick object containing all the layers
+pop_layers <- brick(pop)
+
+#define crs &p projection
+crs(pop_layers) <- "+init=epsg:2056" 
+
+pop_layers2 <- projectRaster(pop_layers, crs="+init=epsg:4326 +proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +units=m +no_defs")
+
+#plot the Layer "Population Totals"
+# plot(pop_layers[["TOT"]])
+
+#visualize raster
+
+#configure tmap to display data as interactive leaflet map
+tmap::tmap_mode("view")
+
+
+#visualize the population raster
+tm_shape(pop_layers) +
+    tm_raster("TOT", palette = "Greys", title = "Inhabitants per 100m2")
+
+# Employment layers
+
+# generate raster -------------
+# create spatial points data frame
+coordinates(empl) <- ~ ha_x + ha_y
+# coerce to SpatialPixelsDataFrame
+gridded(empl) <- TRUE
+
+# plot(empl)
+
+# All layers to brick
+empl_layers <- raster(empl)
+
+#set projection 
+crs(empl_layers) <- "+init=epsg:2056" 
+
+#transform projection to wgs84
+empl_layers <- projectRaster(empl_layers, crs="+init=epsg:4326 +proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +units=m +no_defs")
+
+#Plot!
+tm_shape(empl_layers) +
+tm_raster(palette = "Oranges", title = "Employees per 100m2")
+
+```
+So, this is how the data can be imported and quickly visualized... lets move on to data enrichment!
+      
+#### Getting Openstreetmap-data straight into R
+
+The OSM-layers can be imported into R with the osmdata-package. In combination with the sf-package, R's (new) workhorse for spatial data, we can extract the layers of interest handily.  
+
+```{r message=FALSE, warning=FALSE}
+
+library(units)
+library(sf)
+library(osmdata)
+
+#install tmap for visualization purpouses
+devtools::install_github("mtennekes/tmap")
+
+#get BoundingBox of the canton of Zurich
+# getbb("Kanton Zürich")
+
+q0 <- opq(bbox = c(8.35768, 47.15944,8.984941,47.694472))
+
+# extract	boundaries of the Canton of Zurich via wikidati URI
+q1 <- add_osm_feature(opq = q0, key = 'wikidata', value = "Q11943")
+# retrieve the data
+res1 <- osmdata_sf(q1)
+#get geometry
+zh <- st_geometry(res1$osm_multipolygons)
+
+# extract Bars & Pubs
+q6 <- add_osm_feature(opq = q0, key = 'amenity', value = "bar")
+bars <- osmdata_sf(q6)
+bars_zh<- st_geometry(bars$osm_points)
+
+# plot the bars in the canton of Zurich
+
+tmap::qtm(bars_zh)
+
+```
+  
+That's all it takes to load the data into R and to get ready for further analysis! 
+
+## Data
+
+[1. Population](https://www.web.statistik.zh.ch/twist/population_raster_ha.csv)   
+
+[2. Employment](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv) 
+
+<center>
+## REGISTER NOW FOR THE TWIST-Hackdays!
+</center>
+<center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center>
+
+

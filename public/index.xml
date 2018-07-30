@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Spatial statistics at TWIST2018</title>
+      <link>/post/spatial_statistics/</link>
+      <pubDate>Mon, 30 Jul 2018 14:41:19 +0200</pubDate>
+      
+      <guid>/post/spatial_statistics/</guid>
+      <description>Soon, the spatial statistics layers in the cantonal GIS-Browser will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Particpants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
+In anticipation of the integration of into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays.</description>
+    </item>
+    
+    <item>
       <title>Give your address a position. Give your position an address.</title>
       <link>/post/opengeocoder/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/spatial_statistics/</loc>
+    <lastmod>2018-07-30T14:41:19+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/opengeocoder/</loc>
     <lastmod>2018-07-20T00:00:00+00:00</lastmod>
   </url>
@@ -73,7 +78,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-30T14:41:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   

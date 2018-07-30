@@ -98,8 +98,8 @@
 
 
 <p>Soon, the spatial statistics layers in the cantonal <a href="https://maps.zh.ch/">GIS-Browser</a> will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Particpants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.</p>
-<p>In anticipation of the integration of into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received at TWIST by participants working with the data will help us to shape the final form of the data-export implemented in the GIS-ZH-webservice.</p>
-<p>The spatialy disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine this data with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!</p>
+<p>In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice.</p>
+<p>The spatially disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine this data with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!</p>
 <div id="spatial-analyses-and-cartographic-explorations-with-openstreetmap" class="section level4">
 <h4>Spatial analyses and cartographic Explorations with OpenStreetMap</h4>
 <p>It would be particularly interesting to combine the spatial statistics layers with other data sources, such as the openstreetmap-data for instance. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets.</p>
@@ -109,8 +109,7 @@
 </div>
 <div id="this-all-sounds-wonderful-but-where-do-i-start" class="section level4">
 <h4>This all sounds wonderful, but where do I start?</h4>
-<p>The two raster-datasets are available for download. Followingly, we provide some code to load it into R and to take a first glipmse at it.</p>
-<p>Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively ‘bulks’ of OSM-data are available for donwload here:</p>
+<p>The two raster-datasets are available for download. Followingly, we provide some code to load it into R and to take a first glimpse at it. Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively ‘bulks’ of OSM-data are available for donwload here:</p>
 <p><a href="https://download.geofabrik.de/" class="uri">https://download.geofabrik.de/</a></p>
 </div>
 <div id="statistics-layers" class="section level4">
@@ -120,9 +119,10 @@
 library(tmap)
 
 
-# population data - values for raster-cells with population totals &gt; 10 are 
+# population data - values for raster-cells with population totals &lt; 10 have been excluded
 pop &lt;- read.csv(&quot;https://www.web.statistik.zh.ch/twist/population_raster_ha.csv&quot;)
 
+# employment data - values for raster-cells with a number of enterprises &lt;= 3 have been excluded
 empl &lt;- read.csv(&quot;https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv&quot;, sep=&quot;;&quot;)</code></pre>
 </div>
 <div id="load-population-employment-raster-data" class="section level4">

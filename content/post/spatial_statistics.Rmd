@@ -1,23 +1,29 @@
 ---
 title: "Spatial statistics at TWIST2018"
-description: Work with the spatially most disaggregated statistical (open) data on
+description: Work with the spatially most granular statistical (open) data on
   the canton of Zurich at the TWIST-Hackdays!
 date: '2018-07-30T14:41:19+02:00'
 image: images/spatial_stats.jpg
 draft: yes
 ---
 
-Have you ever wondered in which areas of the canton of Zurich the population is the youngest? Or where the density of employees in a certain industry is the highest? The spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) bear the answers.
+Have you ever wondered in which areas of the canton of Zurich the population is the youngest? Or where the density of employees in a certain industry is the highest? How many people live and work in your neighbourhood? The spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) bear the answers.
 
 Soon, they will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Participants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
 
+#### first time publication of spatial statistics layers as open data
+
 In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
 
-The spatially disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine it with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!
+The most granular data available data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine it with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals:
+
+[join our Slack-group!](https://join.slack.com/t/twist2018/shared_invite/enQtMzkwNzkzNDg1MDkzLTY0ZDFmYWFjODViZmVmNGUyNzBjMDQxYTU3MGEyYmY4YmViYzAzNzA1NTFiMWYyZTAyOWJmYWU2Y2FhZjkwYmM)
+
+[... or get in touch with us via Twitter](https://twitter.com/TWIST2018)
+
+A part from analyzing the spatial statistics layers themselfes, it could be particularly interesting to combine the spatial statistics layers with other data sources. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets. 
 
 #### Spatial analyses and cartographic Explorations with OpenStreetMap
-
-A part from analyzing the spatial statistics layers themselfes, it could be particularly interesting to combine the spatial statistics layers with other data sources. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets.
 
 For instance, by recurring to the **superb** openstreetmap-database, one might explore density-patterns of specific data points - such as bars, shops, supermarkes, pharmacies, fitness centres, playgrounds and so on - when set into relation with population and employment. As the spatial statistics layers do not only contain totals, but detailed structure data in form of population age categories as well as industry information in the case of employment, they allow for adressing a myriad of questions with spatial character.
 

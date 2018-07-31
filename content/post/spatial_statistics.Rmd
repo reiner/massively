@@ -11,9 +11,9 @@ Have you ever wondered in which areas of the canton of Zurich the population is 
 
 Soon, they will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Participants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
 
-#### first time publication of spatial statistics layers as open data
+#### first time publication of spatial statistics GIS-layers as open data
 
-In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
+In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to explore this new datasets by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
 
 The most granular data available data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine it with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals:
 
@@ -31,7 +31,7 @@ SO... If you're a **spatially** oriented mind and want to be among the first to 
 
 However, even if you're not into coding and data, but just looking for a spatial 'niche' where to open up a new bar or some other activity in an area with numberous potential customers but with not-so numberous competitors in proximity, join us at the TWIST-Hackdays to see whether we might help you finding it.
 
-#### This all sounds wonderful, but where do I start?
+#### This all sounds so wonderful, but where do I start?
 
 Followingly, we provide example code to load the rasterdata into R and to take a first glimpse at it. The data-files are available for download here:
 
@@ -66,7 +66,7 @@ empl <- read.csv("https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv", sep
 
 ####Load Population & Employment Raster Data
 
-The raster package is the reference R package for raster processing. We can recur to it to transform the data into R-friendly raster objects. Subsequently, we can use the tmap-package to take a first glimpse at the data. 
+The raster package is the reference R package for raster processing. We can use it to transform the data into R-friendly raster objects. Subsequently, we can use the tmap-package to take a first glimpse at the data. 
 
 
 ```{r, warning=FALSE, message=FALSE, out.width='100%'}
@@ -121,7 +121,7 @@ tm_shape(empl_layers) +
 tm_raster(palette = "Oranges", title = "Employees per 100m2")
 
 ```
-This is how the data can be imported and quickly visualized... lets move on to data enrichment!
+This is how the data can be imported and quickly visualized... lets move on to getting the openstreetmap-data into R.
       
 #### Getting Openstreetmap-data straight into R
 

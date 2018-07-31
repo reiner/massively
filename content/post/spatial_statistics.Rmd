@@ -7,46 +7,48 @@ image: images/spatial_stats.jpg
 draft: yes
 ---
 
-Soon, the spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Particpants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
+Have you ever wondered in which areas of the canton of Zurich the population is the youngest? Or where the concentration the density of employees in a certain industry is the highest?
+
+Soon, the spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Participants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
 
 In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
 
-The spatially disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine this data with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!
+The spatially disaggregated data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine it with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals!
 
 #### Spatial analyses and cartographic Explorations with OpenStreetMap
 
-It would be particularly interesting to combine the spatial statistics layers with other data sources, such as the openstreetmap-data for instance. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets.
+A part from analyzing the spatial statistics layers themselfes, it could be particularly interesting to combine the spatial statistics layers with other data sources. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets.
 
-For instance, one might explore density-patterns of certain data points of specific types - such as bars, shops, supermarkes, pharmacies, fitness centres, playgrounds and so on - when set into relation with population and employment. The spatial statistics layers do not only contain totals, but detailed structure data in form of population age categories as well as industry information in the case of employment. They therefore allow for adressing a myriad of questions of spatial character.
+For instance, by recurring to the **superb** openstreetmap-database, one might explore density-patterns of specific data points - such as bars, shops, supermarkes, pharmacies, fitness centres, playgrounds and so on - when set into relation with population and employment. As the spatial statistics layers do not only contain totals, but detailed structure data in form of population age categories as well as industry information in the case of employment, they allow for adressing a myriad of questions with spatial character.
 
-If you're a **spatially** oriented mind and want to be among the first to get your hands on the **spatially** most disaggregated statistical (open) data on the canton of Zurich, we expect you at TWIST!
+SO... If you're a **spatially** oriented mind and want to be among the first to get your hands on the **spatially** most disaggregated statistical (open) data on the canton of Zurich, we expect you at TWIST!
 
 However, even if you're not into coding and data, but just looking for a spatial 'niche' where to open up a new bar or some other activity in an area with numberous potential customers but with not-so numberous competitors in proximity, join us at the TWIST-Hackdays to see whether we might help you finding it.
 
 #### This all sounds wonderful, but where do I start?
 
-Followingly, we provide example code to load the rasterdata into R and to take a first glimpse at it. Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively 'bulks' of OSM-data are available for donwload here:
+Followingly, we provide example code to load the rasterdata into R and to take a first glimpse at it. The data-files are available for download here:
+
+[1. Population](https://www.web.statistik.zh.ch/twist/population_raster_ha.csv)
+
+[2. Employment](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv) 
+
+Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively 'bulks' of OSM-data are available for donwload here:
 
 https://download.geofabrik.de/ 
 
 
 ####statistics layers
 
-The data-files are available for download here:
-
-[1. Population](https://www.web.statistik.zh.ch/twist/population_raster_ha.csv)   
-
-[2. Employment](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv) 
-
-
 So let's load the data into R...
 ```{r, message=FALSE, warning=FALSE}
 library(pacman)
 
-#get dev-version of tmap
-devtools::install_github("mtennekes/tmap")
+pacman::p_load(tidyverse,rgdal,rgeos,tmaptools,raster)
 
-pacman::p_load(tidyverse,rgdal,rgeos,tmaptools,raster,tmap)
+#install & load dev-version of tmap
+devtools::install_github("mtennekes/tmap")
+library(tmap)
 
 # population data - values for raster-cells with population totals < 10 have been excluded
 pop <- read.csv("https://www.web.statistik.zh.ch/twist/population_raster_ha.csv")
@@ -92,8 +94,12 @@ tmap::tmap_mode("view")
 #visualize population raster
 tm_shape(pop_layers) +
     tm_raster("TOT", palette = "Greys", title = "Inhabitants per 100m2")
+```
 
-# Employment raster (same steps as above) --------
+For the emplyoment raster, we can just repeat the same steps.
+  
+```{r, warning=FALSE, message=FALSE, out.width='100%'}
+# Employment raster --------
 
 coordinates(empl) <- ~ ha_x + ha_y
 
@@ -145,7 +151,7 @@ tmap::qtm(bars_zh)
 
 ```
 
-That's all it takes to load the data into R and to get ready for further analysis! 
+That's all it takes to load the data itself and some additional OSM-data into R and to get ready for further analysis!
 
 ## Data
 

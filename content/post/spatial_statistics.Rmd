@@ -7,9 +7,9 @@ image: images/spatial_stats.jpg
 draft: yes
 ---
 
-Have you ever wondered in which areas of the canton of Zurich the population is the youngest? Or where the concentration the density of employees in a certain industry is the highest?
+Have you ever wondered in which areas of the canton of Zurich the population is the youngest? Or where the density of employees in a certain industry is the highest? The spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) bear the answers.
 
-Soon, the spatial statistics layers in the cantonal [GIS-Browser](https://maps.zh.ch/) will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Participants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
+Soon, they will be made available as open data via API. As a premiere, for the occasion of the TWIST-Hackdays, preview datasets are made available! Participants will have the chance to work with this data and to combine it with other geodata in unprecedented manner.
 
 In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to recur to this new datasets to explore this data by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
 

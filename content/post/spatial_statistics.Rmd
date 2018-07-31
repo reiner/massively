@@ -21,7 +21,7 @@ The most granular data available data allows for very detailed cartographic expl
 
 [... or get in touch with us via Twitter](https://twitter.com/TWIST2018)
 
-A part from analyzing the spatial statistics layers themselfes, it could be particularly interesting to combine the spatial statistics layers with other data sources. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets. 
+Apart from analyzing the spatial statistics layers themselfes, it could be particularly interesting to combine the spatial statistics layers with other data sources. This allows to go beyond visualizing the spatial distributions of population and enterprises singularly, by setting them into relation with other spatial datasets. 
 
 #### Spatial analyses and cartographic Explorations with OpenStreetMap
 

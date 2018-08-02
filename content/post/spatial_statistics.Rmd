@@ -15,7 +15,7 @@ Soon, they will be made available as open data via API. As a premiere, for the o
 
 In anticipation of the integration into the GIS-ZH webservice, we are publishing test-datasets to be used at the TWIST-Hackdays. We encourage participants with interest in geodata and spatial statistics to explore this new datasets by performing spatial analyses and produce visualizations. The feedback received by participants working with the data during the Hackdays will help us to define the final form of the data-export implemented in the GIS-ZH-webservice. 
 
-The most granular data available data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich and allows to combine it with other geodata-sources. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals:
+This data allows for very detailed cartographic explorations of population and employment structures in the canton of Zurich. We want to provide some ideas to get started with at TWIST. However feel free to give us your inputs and submit further proposals:
 
 [join our Slack-group!](https://join.slack.com/t/twist2018/shared_invite/enQtMzkwNzkzNDg1MDkzLTY0ZDFmYWFjODViZmVmNGUyNzBjMDQxYTU3MGEyYmY4YmViYzAzNzA1NTFiMWYyZTAyOWJmYWU2Y2FhZjkwYmM)
 
@@ -39,17 +39,13 @@ Followingly, we provide example code to load the rasterdata into R and to take a
 
 [2. Employment](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv) 
 
-Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively 'bulks' of OSM-data are available for donwload here:
-
-https://download.geofabrik.de/ 
-
-
 ####statistics layers
 
 So let's load the data into R...
 ```{r, message=FALSE, warning=FALSE}
 library(pacman)
 
+#load packages
 pacman::p_load(tidyverse,rgdal,rgeos,tmaptools,raster)
 
 #install & load dev-version of tmap
@@ -83,7 +79,7 @@ gridded(pop) <- TRUE
 # Generate RasterBrick object containing all the layers
 pop_layers <- brick(pop)
 
-#define crs &p projection
+#define crs & projection
 crs(pop_layers) <- "+init=epsg:2056" 
 
 pop_layers2 <- projectRaster(pop_layers, crs="+init=epsg:4326 +proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +units=m +no_defs")
@@ -124,6 +120,10 @@ tm_raster(palette = "Oranges", title = "Employees per 100m2")
 This is how the data can be imported and quickly visualized... lets move on to getting the openstreetmap-data into R.
       
 #### Getting Openstreetmap-data straight into R
+
+Also, for those who wish to combine it with Openstreetmap-Data, the OSM-Database can be easily accessed via API (Overpass API). With the osmdata-package the data can be loaded directly into R. Some example R-Code to get the data on the locations of bars in Zurich via OSM is provided below. Alternatively 'bulks' of OSM-data are available for donwload here:
+
+https://download.geofabrik.de/ 
 
 The OSM-layers can be imported into R with the osmdata-package. In combination with the sf-package, R's (new) workhorse for spatial data, we can extract the layers of interest handily.
 

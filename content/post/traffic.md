@@ -23,6 +23,10 @@ Thinking out loud, here are some ideas you could pursue at TWIST2018:
  
 Be creative! We look forward to hearing from you and your ideas.
 
+[join our Slack-group!](https://join.slack.com/t/twist2018/shared_invite/enQtMzkwNzkzNDg1MDkzLTY0ZDFmYWFjODViZmVmNGUyNzBjMDQxYTU3MGEyYmY4YmViYzAzNzA1NTFiMWYyZTAyOWJmYWU2Y2FhZjkwYmM)
+
+[... or get in touch with us via Twitter](https://twitter.com/TWIST2018)
+
 #### Data
 
 [Data for the city of Zurich](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo)

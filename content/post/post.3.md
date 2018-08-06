@@ -1,4 +1,4 @@
-﻿+++
++++
 title = 'Bring insight into public finances'
 slug = 'public_finances'
 image = 'images/openspending.jpg'
@@ -16,8 +16,7 @@ Get your hands on this data and help us bringing light into public finances! Hel
 
 #### NEW Municipal Audit Commission API
 
-The City of Zurich is soon opening up the Municipal Audit Commission API. Budgets as well as investment- and effective spending data of all the city's administrative units and institutions can thus be easily accessed. 
-Also for all the other municipalities in the Canton of Zurich plenty of comparably detailed data on taxes, revenues as well as investment and spending is openly available. 
+The City of Zurich is soon opening up the Municipal Audit Commission API *(remark: not ready until TWIST2018 as planed)*. Budgets as well as investment- and effective spending data of all the city's administrative units and institutions can thus be easily accessed. Also for all the other municipalities in the Canton of Zurich plenty of comparably detailed data on taxes, revenues as well as investment and spending is openly available. 
 By recurring to these sources, answers to a broad variety of questions can be given. 
 How much have municipalities spent for their executive members salaries? 
 How much have they invested in safety of their citizens? For infrastructure or schooling? How much have they raised through property gains taxes? How much through waste disposal fees? And more generally - how sound are the municipal budgeting and spending practices?
@@ -45,6 +44,6 @@ Want to help citizens and other stakeholders gain new insights and get a better 
 
 [Municipal Finances Portrait Open Data](https://opendata.swiss/de/organization/statistisches-amt-kanton-zuerich?groups=finances)
 
-Municipal Audit Commission API : coming soon to [data.stadt-zuerich.ch](https://data.stadt-zuerich.ch/)
+~~Municipal Audit Commission API : coming soon to [data.stadt-zuerich.ch](https://data.stadt-zuerich.ch/)~~ *(Not ready until TWIST2018)*
 
 

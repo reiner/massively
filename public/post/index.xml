@@ -6,10 +6,19 @@
     <description>Recent content in Posts on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jul 2018 14:41:19 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Take a close look at the traffic</title>
+      <link>/post/traffic/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/traffic/</guid>
+      <description>We know Zurich&amp;rsquo;s data of automated pedestrian and bicycle counting quite well. Together with you we would like to find out if and how it can be compared with analogous data of other cities and / or means of transport. What patterns come to light when combining Zurich&amp;rsquo;s foot and bicycle frequencies with VBZ or SBB data? How high is the share of people going to the train station by bike?</description>
+    </item>
     
     <item>
       <title>Spatial statistics at TWIST2018</title>

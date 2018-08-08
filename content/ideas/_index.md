@@ -12,7 +12,7 @@ Also, we're gathering ideas for potential projects as well as already existing i
 
 **OpenSpending** : What is taxpayers' money spent for? Which claims around public spending generally considered valid are facts, which are myths? 
 
-**Machine learning** : Let statistical learning algorithms learn from the provided datasets, unveil hidden patterns and make predictions!
+**Machine learning** : Let statistical learning algorithms learn from the datasets provided at TWIST to unveil interesting patterns and make predictions!
 
 ## Publication as opendata in evaluation
 

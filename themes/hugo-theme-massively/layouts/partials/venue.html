@@ -13,8 +13,8 @@
                 <h4>{{ .name }}</h4>
                <p>
                  {{ .street}}<br>
-                  {{ if and .room .roomlink }}
-                  <a href="{{ .roomlink }}">{{ .room }}</a>
+                  {{ if and .room .roomurl }}
+                  <a href="{{ .roomurl }}" target="_blank">{{ .room }}</a>
                     {{ else }} {{ .room }}
                    {{ end }}
                   <br/> {{ .zipcode }} {{ .city }}

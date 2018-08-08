@@ -4543,3 +4543,10 @@
 		}
 
 	}
+	
+	/* venue partial */
+	
+	
+	div.venueadress p, h4{
+				text-align: center;
+			}

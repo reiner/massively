@@ -20,11 +20,6 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 |18:00|  Dinner |   |
 |19:00|  Possibility to continue working together |   |
 
-
-|  Where?          |
-|--------------------|
-| University of Zurich|
-
 </center> 
 <center>
 <img src="images/banner_sst_homepage.png" alt="Drawing" style="width: 80%;"/><br>

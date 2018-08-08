@@ -6,18 +6,20 @@ type = "page"
 We are commited to make new open data sources available soon, which could be used for the first time at the TWIST-Hackdays. Below you can find an overview of the not yet published datasets, which will - hopefully - be open by then.
 Also, we're gathering ideas for potential projects as well as already existing interesting open data sources. This page will be updated on a regularly basis over the next few weeks.
 
-### Drafts of potential hackathon-projects (more details to follow shortly)
+### Drafts of potential hackathon-projects
 
 **Linked Open Data** : Which "hidden truths" can be made visible when open data can be linked and joined toghether easily?
 
 **OpenSpending** : What is taxpayers' money spent for? Which claims around public spending generally considered valid are facts, which are myths? 
+
+**Machine learning** : Let statistical learning algorithms learn from the provided datasets, unveil hidden patterns and make predictions!
 
 ## Publication as opendata in evaluation
 
 #### Mobility
 - ~~Detailed data on all the registered motorvehicles since 2012, Canton Zurich~~ *(not ready until TWIST2018)*
 - Detailed passenger-counts of selected tram stations, City of Zurich
-- Aggregated data on distances covered by bike and routes, Bike2Work Challenge (request pending)
+- ~~Aggregated data on distances covered by bike and routes, Bike2Work Challenge (request pending)~~ *(not ready until TWIST2018)*
 
 #### Health
 
@@ -34,6 +36,12 @@ Also, we're gathering ideas for potential projects as well as already existing i
 
 
 ## Already available data sources
+
+##### Wikidata : the free and open knowledge base
+
+If you're going for the linked open data challenge, there is hardly a way around wikidata!
+
+https://www.wikidata.org
 
 ##### Punctuality Data (Public transportation)
 

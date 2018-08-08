@@ -9,19 +9,20 @@
                 </a>
                 {{ end }}
               </div>
-              <div class="col-md-3 my-5">
-                <h3 class="mx-3 event-primary-text">
-                  <b>{{ .name }}</b>
-                </h3>
-                <p>
-                  {{ .street }}
+              <div class="venueadress">
+                <h4>{{ .name }}</h4>
+               <p>
+                 {{ .street}}<br>
+                  {{ if and .room .roomlink }}
+                  <a href="{{ .roomlink }}">{{ .room }}</a>
+                    {{ else }} {{ .room }}
+                   {{ end }}
                   <br/> {{ .zipcode }} {{ .city }}
                   <br/> {{ .country }}
                 </p>
-
                 {{ if .coords }}
-                  <p class="small">© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a></p>
-                  <p class="small">© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></p>
+                  <p class="small"><a href='https://www.mapbox.com/map-feedback/'>© Mapbox</a>
+                  <br/> <a href='https://www.openstreetmap.org/copyright'>© OpenStreetMap contributors</a></p>
                 {{ end }}
         </div>
     </section>

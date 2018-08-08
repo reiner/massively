@@ -1,5 +1,5 @@
 {
-    "path" : "~/GitHub/massively/content/post",
+    "path" : "~/GitHub/massively/themes/hugo-theme-massively/layouts/partials",
     "sortOrder" : [
         {
             "ascending" : true,

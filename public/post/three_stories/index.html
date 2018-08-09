@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> Three stories about a child &middot;  TWIST</title>
+		<title>Three stories about a child</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href="/" class="logo">TWIST</a>
+</header>
+                
+
+<nav id="nav">
+    <ul class="links">
+
+		
+    
+    
+	
+    <li class=""> <a href="/">Home</a></li>
+
+    
+	
+    <li class=""> <a href="/about/">About</a></li>
+
+    
+	
+    <li class=""> <a href="/post/">News</a></li>
+
+    
+	
+    <li class=""> <a href="/ideas/">Ideas &amp; Resources</a></li>
+
+    
+	
+    <li class=""> <a href="/sst2018/">Swiss Statistics Meeting</a></li>
+
+    
+
+        
+        <li><a href="#footer">Contact</a></li>
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        <li><a href="https://twitter.com/twist2018" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+						
+                        <section class="post">
+                            <header class="major">
+							
+							     
+                           
+								
+                                <h1>Three stories about a child</h1>
+                                <p>Three stories about a child moving to Basel as inspiration for TWIST-projects</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/images/dataEcoSystem.jpg" alt="" /></div>
+                            
+                            
+
+<p>Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood in the wonderful city of Basel. Your first day of school will be on Monday – how exciting! But first you have to find a place to live&hellip; Imagine further, that you have a decent flair for open statistical data and quite a talent for programming. So you are probably the first ever kid on this world that is able to code before even being able to write in his mother tongue – how weird… But hey, it’s all about imagination! So you start to listen to some music…</p>
+
+<h4 id="1-it-s-not-all-about-the-money-but-spatial-data">1. It’s (not) all about the money – but spatial data</h4>
+
+<p>So, imagine: your parents plan to move from Zurich to Basel soon – the best decision ever, you think. You are keen to meet all the cool people in this charming city at the Rhine. Usually, the rent is an important criterion when moving to a new apartment. But hey, you are 6 years old and don’t care about money! So you are primarily concerned about the best place to easily get in contact with your future friends. Which area has the highest share in children and young people? Which the greatest social diversity? Where are the green areas? And – you really hate them – where is the probability lowest to meet dogs in your neighborhood? After all, your mum says she would like to live in a place where one doesn’t need a car. And your dad always wanted to test his self-made burglar alarm – don’t ask why. So let’s look for a place that meets all your family’s needs: Many burglaries, not many registered private cars, almost no registered dogs – and some cool friends for yourself.</p>
+
+<p>On www.basleratlas.ch you happen to find all the relevant data and easily visualize it in different maps. Not bad, this gives a good first impression, your longing for Basel already noticeably increases. But comparing the different data and running spatial analyses with more than one dataset is not really possible. A pity… Then your mom shouts that you should brush your teeth and go to bed. This is the point when you realize that all the data you were looking at is also accessible as CSV:</p>
+
+<p><a href="http://www.statistik.bs.ch/karten/basler-atlas.html">http://www.statistik.bs.ch/karten/basler-atlas.html</a></p>
+
+<p>And hey, there is also a JSON-File including the data structure and all relevant meta-data:</p>
+
+<p><a href="https://basleratlas.ch/geoclip_data_csv.php">https://basleratlas.ch/geoclip_data_csv.php</a></p>
+
+<p>Based on this you can get all data on all available spatial layers in the Basler Atlas by simply complement the link with the parameters iID=iID and ngeo=Ebene. For example, for the number of private cars on the spatial layer Block:</p>
+
+<p><a href="https://basleratlas.ch/geoclip_data_csv.php?iID=personenwagen_anz&amp;ngeo=wbl">https://basleratlas.ch/geoclip_data_csv.php?iID=personenwagen_anz&amp;ngeo=wbl</a></p>
+
+<p>You forget about your toothbrush and mentally dive into the possibilities that would emerge when combining these (and maybe even other) data into an application that would allow enhanced spatial analyses and explorations. And so you start coding…</p>
+
+<h4 id="2-we-re-safe-and-sound-on-our-way-to-school">2. We&rsquo;re safe and sound on our way to school</h4>
+
+<p>So, imagine: you look forward to meeting your new classmates soon. But you want to meet them safe and sound. Remember, you are a six years old, living in the life-threatening environment of a nowadays city – traffic can be deadly, it’s said (at least according to your caring mom). So let’s quickly check if there is some open data available on how safe your way to school is. And hey, what a surprise, it is! The cantonal <a href="http://geo.bs.ch/">Geoportal BS</a> provides you with a dataset called “Schulwegsicherheit”:</p>
+
+<p><a href="https://map.geo.bs.ch/?lang=de&amp;baselayer_ref=Grundkarte%20grau&amp;tree_groups=Schulwegsicherheit&amp;tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&amp;map_x=2612208&amp;map_y=1267258&amp;map_zoom=4">https://map.geo.bs.ch/?lang=de&amp;baselayer_ref=Grundkarte%20grau&amp;tree_groups=Schulwegsicherheit&amp;tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&amp;map_x=2612208&amp;map_y=1267258&amp;map_zoom=4</a></p>
+
+<p>Street crossings are marked according to their safeness, footpaths are available. This looks useful. But also a bit like a labyrinth. Not easy to find the optimal way through it: safe, but still fast. Looks like a route planner is needed. Maybe <a href="http://grapphopper.com">graphhopper</a>, as described in this <a href="http://www.liedman.net/leaflet-routing-machine/tutorials/alternative-routers/">tutorial</a> ? Fortunately, all data on the Geoportal BS is made available by the WFS-Server <a href="http://wfs.geo.bs.ch">wfs.geo.bs.ch</a> (and there’s also a <a href="http://www.geo.bs.ch/geodaten/geodienste/wfsbs.html">documentation</a>) which offers you his capabilities through:</p>
+
+<p><a href="https://wfs.geo.bs.ch/?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=GetCapabilities">https://wfs.geo.bs.ch/?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=GetCapabilities</a></p>
+
+<p>&hellip; and by adding the parameter “&amp;outputFormat=geojson” to the GetFeature requests you get your desired data as GEOJSON – how useful!</p>
+
+<p><a href="https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_SchulwegSicherheit_Querung&amp;srsName=epsg:2056&amp;outputFormat=geojson">https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_SchulwegSicherheit_Querung&amp;srsName=epsg:2056&amp;outputFormat=geojson</a></p>
+
+<p><a href="https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_QuerungSym&amp;srsName=epsg:2056&amp;outputFormat=geojson">https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_QuerungSym&amp;srsName=epsg:2056&amp;outputFormat=geojson</a></p>
+
+<p><a href="https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_Fussweg&amp;srsName=epsg:2056&amp;outputFormat=geojson">https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SS_Fussweg&amp;srsName=epsg:2056&amp;outputFormat=geojson</a></p>
+
+<p>You can even check which school would be closest to you by loading all primary schools in Basel:</p>
+
+<p><a href="https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SC_Primarschule&amp;srsName=epsg:2056&amp;outputFormat=geojson">https://wfs.geo.bs.ch/?service=wfs&amp;version=1.1.0&amp;request=GetFeature&amp;typeNames=SC_Primarschule&amp;srsName=epsg:2056&amp;outputFormat=geojson</a></p>
+
+<p>Hm, the vector-data seems to have some topological imperfections, might need some snapping here and there to make it routable. But otherwise it would have been way too easy to implement, wouldn’t it! ;-) So you start coding…</p>
+
+<h4 id="3-in-the-year-2525-or-maybe-2035">3. In the year 2525 – or maybe 2035</h4>
+
+<p>So, imagine: your first day at school was somewhat promising. Really cool kids from many different countries. You already made some new friends by showing them your brand new app “Cool2School” – which was already downloaded by all 8480 kids at the age of 5-9 in Basel. But having met so many beautiful people this day, back home you start wondering: Will we still be friends in 17 years? Where will we all live then? Still in the same area of Basel? Or in Zurich, again? What is supposable? Would be cool to have some Open Data on the future population of Basel and Zurich to see what kind of people will be living in which part of which city. And how probable is it that you and your new friends will still be here?</p>
+
+<p>Good to know that Basel and Zurich (city and canton) just recently published their population scenarios:</p>
+
+<p><a href="https://opendata.swiss/de/dataset/bevolkerungsszenarien">https://opendata.swiss/de/dataset/bevolkerungsszenarien</a></p>
+
+<p><a href="https://opendata.swiss/de/dataset/bevolkerungsszenarien-2017-2030">https://opendata.swiss/de/dataset/bevolkerungsszenarien-2017-2030</a></p>
+
+<p><a href="https://data.stadt-zuerich.ch/dataset/bev_szenarien_od3440">https://data.stadt-zuerich.ch/dataset/bev_szenarien_od3440</a></p>
+
+<p>Remember the charts you saw some weeks ago, visualizing future population in an interactive and appealing way (<a href="https://service.destatis.de/bevoelkerungspyramide/">this</a> and <a href="https://service.destatis.de/laenderpyramiden/">that</a> one)? Why not trying to visualize the population scenarios with such a d3-application? Or alternatively with the <a href="https://statistikstadtzuerich.github.io/sszvis/#/beginners">d3-visualization-library</a> of Statistik Stadt Zurich?</p>
+
+<p>Your classmates will be impressed again tomorrow! So you start coding…</p>
+
+<p><center><h4>REGISTER NOW FOR THE TWIST-Hackdays!</h4></center></p>
+
+<p><center><a target="_blank" href="https://www.eventbrite.de/e/twist-2018-tickets-44099503803" class="button back alt2">Register Now!</a></center></p>
+
+
+                            
+
+                            
+                        </section>
+
+					</div>
+
+                    
+<footer id="footer">
+    
+    <section class="split contact">
+        
+        <section class="alt">
+            <h3>Address</h3>
+            <p>
+                
+                     Rämistrasse 71
+                
+                     <br/>  8006 Zürich
+                
+            </p>
+        </section>
+        
+        
+        
+        <section>
+            <h3>Email</h3>
+            <p><a href="mailto:info@open.zh.ch">info@open.zh.ch</a></p>
+        </section>
+        
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                
+                <li><a href="https://twitter.com/twist2018" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+                    
+<div id="copyright">
+    <ul><li>&copy; TWIST</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+			</div>
+            
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113904582-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', "UA-118141496-1");
+</script>
+
+
+	</body>
+</html>

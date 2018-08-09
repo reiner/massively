@@ -78,5 +78,14 @@ Get your hands on open spending data at the TWIST-Hackdays! Since 1990, the expe
       <description>We are currently collecting ideas and compiling a list of exciting data sets to be used at the Twist-Hackdays. There will be no prescribed challenges. We will provide a pool of ideas which will serve as a source of inspiration and a solid starting point for potential Hackday-projects. We do our best to make until yet undisclosed data sources open soon, which could be used for the first time at the TWIST-Hackdays.</description>
     </item>
     
+    <item>
+      <title>Three stories about a child</title>
+      <link>/post/three_stories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/three_stories/</guid>
+      <description>Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood in the wonderful city of Basel. Your first day of school will be on Monday – how exciting! But first you have to find a place to live&amp;hellip; Imagine further, that you have a decent flair for open statistical data and quite a talent for programming. So you are probably the first ever kid on this world that is able to code before even being able to write in his mother tongue – how weird… But hey, it’s all about imagination!</description>
+    </item>
+    
   </channel>
 </rss>

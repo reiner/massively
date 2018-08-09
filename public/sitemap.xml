@@ -96,4 +96,8 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/post/three_stories/</loc>
+  </url>
+  
 </urlset>

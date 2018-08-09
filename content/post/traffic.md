@@ -27,11 +27,17 @@ Be creative! We look forward to hearing from you and your ideas.
 
 [... or get in touch with us via Twitter](https://twitter.com/TWIST2018)
 
-#### Data
+#### Open Data
 
-[Data for the city of Zurich](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo)
+[Pedestrian and bicycle counting data](https://data.stadt-zuerich.ch/dataset?tags=veloverkehr)
+
+[Further Open Data on bicycles](https://data.stadt-zuerich.ch/dataset?q=velo&sort=title_string+desc)
 
 ... links for the datasources of the other participating cities as well as weather-data provided by meteoswiss will follow soon!
+
+#### Getting Started
+
+Some inspiring examples can be found [here](https://data.stadt-zuerich.ch/dataset/showcases/verkehrszaehlungen-werte-fussgaenger-velo)
 
 <center><h4>REGISTER NOW FOR THE TWIST-Hackdays!</h4></center>
 

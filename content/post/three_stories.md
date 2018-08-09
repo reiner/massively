@@ -2,7 +2,7 @@
 title = 'Three stories about a child'
 slug = 'three_stories'
 image = 'images/dataEcoSystem.jpg'
-date = "2018-09-9T00:00:00"
+date = "2018-08-09T00:00:00"
 description = 'Three stories about a child moving to Basel as inspiration for TWIST-projects'
 +++
 

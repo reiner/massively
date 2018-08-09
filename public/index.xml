@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Three stories about a child</title>
+      <link>/post/three_stories/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/three_stories/</guid>
+      <description>Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood in the wonderful city of Basel. Your first day of school will be on Monday – how exciting! But first you have to find a place to live&amp;hellip; Imagine further, that you have a decent flair for open statistical data and quite a talent for programming. So you are probably the first ever kid on this world that is able to code before even being able to write in his mother tongue – how weird… But hey, it’s all about imagination!</description>
+    </item>
+    
+    <item>
       <title>Take a close look at the traffic</title>
       <link>/post/traffic/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
@@ -115,15 +124,6 @@ First step: Let the data sprout For data to sprout, it has to be available to ev
       <guid>/news/zueri_wie_neu/</guid>
       <description>While we strive to publish as many interesting new open data for TWIST as possible, it is worth taking a look at already existing open data. In this post we would like to give you a brief outlook over the crowdsourced open data from the application «Züri wie neu». We think that there are still some hidden, so far undiscovered, truths to be found in it.
 The application and derived open data «Züri wie neu» is an online platform of the Zurich city administration in order to facilitate the reporting of damaged infrastructure by citizens.</description>
-    </item>
-    
-    <item>
-      <title>Three stories about a child</title>
-      <link>/post/three_stories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/three_stories/</guid>
-      <description>Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood in the wonderful city of Basel. Your first day of school will be on Monday – how exciting! But first you have to find a place to live&amp;hellip; Imagine further, that you have a decent flair for open statistical data and quite a talent for programming. So you are probably the first ever kid on this world that is able to code before even being able to write in his mother tongue – how weird… But hey, it’s all about imagination!</description>
     </item>
     
   </channel>

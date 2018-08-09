@@ -3,7 +3,7 @@ title = 'Three stories about a child'
 slug = 'three_stories'
 image = 'images/twist_charlie02.jpg'
 date = "2018-08-09T00:00:00"
-description = 'Three stories about a child living in Basel as inspiration for TWIST-projects'
+description = 'Three stories about a child moving to Basel as inspiration for TWIST-projects'
 +++
 
 Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood in the wonderful city of Basel. Your first day of school will be on Monday – how exciting! But first you have to find a place to live... Imagine further, that you have a decent flair for open statistical data (under open use license) and quite a talent for programming. So you are probably the first ever kid on this world that is able to code before even being able to write in his mother tongue – how weird… But hey, it’s all about imagination! So you start to listen to some music…

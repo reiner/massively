@@ -4547,6 +4547,6 @@
 	/* venue partial */
 	
 	
-	div.venueadress p, h4{
+	div.venueadress p, div.venueadress h4{
 				text-align: center;
 			}

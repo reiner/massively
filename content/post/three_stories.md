@@ -14,7 +14,7 @@ Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood 
 
 So, imagine: your parents plan to move from Zurich to Basel soon – the best decision ever, you think. You are keen to meet all the cool people in this charming city at the Rhine. Usually, the rent is an important criterion when moving to a new apartment. But hey, you are 6 years old and don’t care about money! So you are primarily concerned about the best place to easily get in contact with your future friends. Which area has the highest share in children and young people? Which the greatest social diversity? Where are the green areas? And – you really hate them – where is the probability lowest to meet dogs in your neighborhood? After all, your mum says she would like to live in a place where one doesn’t need a car. And your dad always wanted to test his self-made burglar alarm –don’t ask why. So let’s look for a place that meets all your family’s needs: Many burglaries, not many registered private cars, almost no registered dogs – and some cool friends for yourself.
 
-On [www.basleratlas.ch](http://www.basleratlas.ch) you happen to find all the relevant data and easily visualize it in different maps. Not bad, this gives a good first impression, your longing for Basel already noticeably increases.
+On [www.basleratlas.ch](https://www.basleratlas.ch) you happen to find all the relevant data and easily visualize it in different maps. Not bad, this gives a good first impression, your longing for Basel already noticeably increases.
  
 <a target="_blank" href="https://basleratlas.ch/index.php?indics=11_fahrzeuge.11_motorisierungsgrad&serie=2016&indics2=11_fahrzeuge.personenwagen_anz&serie2=2016&view=map5&lang=de&maponly=1">
 <img src="/images/geoclip.jpg" alt="basleratlas" width="100%"/>
@@ -22,7 +22,7 @@ On [www.basleratlas.ch](http://www.basleratlas.ch) you happen to find all the re
 
 But comparing the different data and running spatial analyses with more than one dataset is not really possible. A pity… Then your mom shouts that you should brush your teeth and go to bed. This is the point when you realize that all the data you were looking at is also accessible as CSV from:
 
-http://www.statistik.bs.ch/karten/basler-atlas.html. 
+http://www.statistik.bs.ch/karten/basler-atlas.html
 
 And hey, there is also a page which provides you a JSON-File including the data structure and all relevant meta-data:
 

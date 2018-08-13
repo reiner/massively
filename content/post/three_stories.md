@@ -10,14 +10,14 @@ Imagine you are a 6 year old child. And you plan to live in a cozy neighborhood 
 
 #### 1. It’s (not) all about the money – but spatial data
 
-<img src="images/chapter1.jpg" width="100%"/><br>
+<img src="/images/chapter1.jpg" width="100%"/><br>
 
 So, imagine: your parents plan to move from Zurich to Basel soon – the best decision ever, you think. You are keen to meet all the cool people in this charming city at the Rhine. Usually, the rent is an important criterion when moving to a new apartment. But hey, you are 6 years old and don’t care about money! So you are primarily concerned about the best place to easily get in contact with your future friends. Which area has the highest share in children and young people? Which the greatest social diversity? Where are the green areas? And – you really hate them – where is the probability lowest to meet dogs in your neighborhood? After all, your mum says she would like to live in a place where one doesn’t need a car. And your dad always wanted to test his self-made burglar alarm –don’t ask why. So let’s look for a place that meets all your family’s needs: Many burglaries, not many registered private cars, almost no registered dogs – and some cool friends for yourself.
 
 On [www.basleratlas.ch](http://www.basleratlas.ch) you happen to find all the relevant data and easily visualize it in different maps. Not bad, this gives a good first impression, your longing for Basel already noticeably increases.
  
 <a href="https://basleratlas.ch/index.php?indics=11_fahrzeuge.11_motorisierungsgrad&serie=2016&indics2=11_fahrzeuge.personenwagen_anz&serie2=2016&view=map5&lang=de&maponly=1">
-<img src="images/geoclip.png" alt="basleratlas" width="100%"/>
+<img src="/images/geoclip.jpg" alt="basleratlas" width="100%"/>
 </a>
 
 But comparing the different data and running spatial analyses with more than one dataset is not really possible. A pity… Then your mom shouts that you should brush your teeth and go to bed. This is the point when you realize that all the data you were looking at is also accessible as CSV from:
@@ -36,7 +36,7 @@ You forget about your toothbrush and mentally dive into the possibilities that w
 
 #### 2. We're safe and sound - on our way to school
 
-<img src="images/chapter2.jpg" alt="safe way to schools" width="100%"/>
+<img src="/images/chapter2.jpg" alt="safe way to schools" width="100%"/>
 
 So, imagine: you look forward to meeting your new classmates soon. But you want to meet them safe and sound. Remember, you are a six years old, living in the life-threatening environment of a nowadays city – traffic can be deadly, it’s said (at least according to your caring mom). So let’s quickly check if there is some open data available on how safe your way to school is. And hey, what a surprise, it is! The cantonal [Geoportal BS](http://geo.bs.ch/) provides you with a dataset called “Schulwegsicherheit”:
 
@@ -64,7 +64,7 @@ Hm, the vector-data seems to have some topological imperfections, might need som
 
 ####  3. In the year 2525 – or maybe 2035
 
-<img src="images/chapter3.jpg" alt="safe way to schools" width="100%"/><br>
+<img src="/images/chapter3.jpg" alt="safe way to schools" width="100%"/><br>
 
 So, imagine: your first day at school was somewhat promising. Really cool kids from many different countries. You already made some new friends by showing them your brand new app “Cool2School” – which was already downloaded by all 8480 kids at the age of 5-9 in Basel. But having met so many beautiful people this day, back home you start wondering: Will we still be friends in 17 years? Where will we all live then? Still in the same area of Basel? Or in Zurich, again? What is supposable? Would be cool to have some Open Data on the future population of Basel and Zurich to see what kind of people will be living in which part of which city. And how probable is it that you and your new friends will still be here?
 

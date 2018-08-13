@@ -16,7 +16,7 @@ So, imagine: your parents plan to move from Zurich to Basel soon – the best de
 
 On [www.basleratlas.ch](http://www.basleratlas.ch) you happen to find all the relevant data and easily visualize it in different maps. Not bad, this gives a good first impression, your longing for Basel already noticeably increases.
  
-<a href="https://basleratlas.ch/index.php?indics=11_fahrzeuge.11_motorisierungsgrad&serie=2016&indics2=11_fahrzeuge.personenwagen_anz&serie2=2016&view=map5&lang=de&maponly=1">
+<a target="_blank" href="https://basleratlas.ch/index.php?indics=11_fahrzeuge.11_motorisierungsgrad&serie=2016&indics2=11_fahrzeuge.personenwagen_anz&serie2=2016&view=map5&lang=de&maponly=1">
 <img src="/images/geoclip.jpg" alt="basleratlas" width="100%"/>
 </a>
 
@@ -40,11 +40,11 @@ You forget about your toothbrush and mentally dive into the possibilities that w
 
 So, imagine: you look forward to meeting your new classmates soon. But you want to meet them safe and sound. Remember, you are a six years old, living in the life-threatening environment of a nowadays city – traffic can be deadly, it’s said (at least according to your caring mom). So let’s quickly check if there is some open data available on how safe your way to school is. And hey, what a surprise, it is! The cantonal [Geoportal BS](http://geo.bs.ch/) provides you with a dataset called “Schulwegsicherheit”:
 
-<iframe src="https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Schulwegsicherheit&tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&map_x=2612208&map_y=1267258&map_zoom=4" width="100%" height="450"></iframe> 
+<iframe src="https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Schulwegsicherheit&tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&map_x=2612208&map_y=1267258&map_zoom=4" width="100%" height="450"></iframe>
 
 [Link to Geoportal with preselected layer](https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Schulwegsicherheit&tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&map_x=2612208&map_y=1267258&map_zoom=4)
 
-Street crossings are marked according to their safeness, footpaths are available. This looks useful. But also a bit like a labyrinth. Not easy to find the optimal way through it: safe, but still fast. Looks like a route planner is needed. Maybe [graphhopper](http://grapphopper.com), as described in this [tutorial](http://www.liedman.net/leaflet-routing-machine/tutorials/alternative-routers/) ? Fortunately, all data on the Geoportal BS is made available by the WFS-Server [wfs.geo.bs.ch](http://wfs.geo.bs.ch) (and there’s also a [documentation](http://www.geo.bs.ch/geodaten/geodienste/wfsbs.html)) which offers you his capabilities through:
+Street crossings are marked according to their safeness, footpaths are available. This looks useful. But also a bit like a labyrinth. Not easy to find the optimal way through it: safe, but still fast. Looks like a route planner is needed. Maybe [graphhopper](http://graphhopper.com){:target="_blank"}, as described in this [tutorial](http://www.liedman.net/leaflet-routing-machine/tutorials/alternative-routers/) ? Fortunately, all data on the Geoportal BS is made available by the WFS-Server [wfs.geo.bs.ch](http://wfs.geo.bs.ch) (and there’s also a [documentation](http://www.geo.bs.ch/geodaten/geodienste/wfsbs.html)) which offers you his capabilities through:
 
 https://wfs.geo.bs.ch/?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities 
 
@@ -78,7 +78,7 @@ https://statistik.zh.ch/internet/justiz_inneres/statistik/de/daten/daten_bevoelk
 
 (Comparing them with the [cantonal scenarios](https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/zukuenftige-entwicklung/kantonale-szenarien.html) published by the Federal Statistical Office could be interesting. Modelling population is not “exact science”…)
 
-Remember the charts you saw some weeks ago, visualizing future population in an interactive and appealing way ( [this](https://service.destatis.de/bevoelkerungspyramide/) and [that](https://service.destatis.de/laenderpyramiden/) one)? Why not trying to visualize the population scenarios with such a d3-application? Or alternatively with the [d3-visualization-library](https://statistikstadtzuerich.github.io/sszvis/#/beginners) of Statistik Stadt Zurich?  
+Remember the charts you saw some weeks ago, visualizing future population in an interactive and appealing way ([this](https://service.destatis.de/bevoelkerungspyramide/) and [that](https://service.destatis.de/laenderpyramiden/) one)? Why not trying to visualize the population scenarios with such a d3-application? Or alternatively with the [d3-visualization-library](https://statistikstadtzuerich.github.io/sszvis/#/beginners) of Statistik Stadt Zurich?  
 
 
 Your classmates will be impressed again tomorrow! So you start coding…

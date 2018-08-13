@@ -13,8 +13,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params.settings]
     googleanalytics = "UA-118141496-1"
     disqus = "hugo-massively"
+    
+[blackfriday]
+  hrefTargetBlank = true
 	
-
 [params.venue]
 name = "University of Zurich"
 street = "Karl Schmid-Strasse 4"

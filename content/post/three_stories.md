@@ -44,7 +44,7 @@ So, imagine: you look forward to meeting your new classmates soon. But you want 
 
 [Link to Geoportal with preselected layer](https://map.geo.bs.ch/?lang=de&baselayer_ref=Grundkarte%20grau&tree_groups=Schulwegsicherheit&tree_group_layers_Schulwegsicherheit=SS_Querung%2CSS_Fussweg&map_x=2612208&map_y=1267258&map_zoom=4)
 
-Street crossings are marked according to their safeness, footpaths are available. This looks useful. But also a bit like a labyrinth. Not easy to find the optimal way through it: safe, but still fast. Looks like a route planner is needed. Maybe [graphhopper](http://graphhopper.com){:target="_blank"}, as described in this [tutorial](http://www.liedman.net/leaflet-routing-machine/tutorials/alternative-routers/) ? Fortunately, all data on the Geoportal BS is made available by the WFS-Server [wfs.geo.bs.ch](http://wfs.geo.bs.ch) (and there’s also a [documentation](http://www.geo.bs.ch/geodaten/geodienste/wfsbs.html)) which offers you his capabilities through:
+Street crossings are marked according to their safeness, footpaths are available. This looks useful. But also a bit like a labyrinth. Not easy to find the optimal way through it: safe, but still fast. Looks like a route planner is needed. Maybe [graphhopper](http://graphhopper.com), as described in this [tutorial](http://www.liedman.net/leaflet-routing-machine/tutorials/alternative-routers/) ? Fortunately, all data on the Geoportal BS is made available by the WFS-Server [wfs.geo.bs.ch](http://wfs.geo.bs.ch) (and there’s also a [documentation](http://www.geo.bs.ch/geodaten/geodienste/wfsbs.html)) which offers you his capabilities through:
 
 https://wfs.geo.bs.ch/?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities 
 

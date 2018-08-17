@@ -20,8 +20,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params.venue]
 name = "University of Zurich"
 street = "Karl Schmid-Strasse 4"
-room= "Room: KO2-F-152"
-roomurl="https://www.plaene.uzh.ch/KO2"
+room= "Rooms: KO2-F-152 / KO2-F-153"
+roomurl="https://www.bdz.uzh.ch/vd/plan/index.php?option=com_content&view=article&id=11&Itemid=11"
 zipCode = "8006"
 city = "Zürich"
 state = "Zürich"

@@ -22,12 +22,12 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 
 </center> 
 <center>
-<img src="images/banner_sst_homepage.png" alt="Drawing" style="width: 80%;"/><br>
-<img src="images/logo_stzh_stat_sw.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/logo-uzh.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/logo-stat.png" alt="Drawing" style="width: 25%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-<img src="images/dynelitics.gif" alt="Drawing" style="width: 20%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/logo_rusergroup.png" alt="Drawing" style="width: 8%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/banner_sst_homepage.png" alt="" style="width: 80%;"/><br>
+<img src="images/logo_stzh_stat_sw.png" alt="" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/logo-uzh.png" alt="" style="width: 20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/logo-stat.png" alt="" style="width: 25%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<img src="images/dynelitics.gif" alt="" style="width: 20%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/logo_rusergroup.png" alt="" style="width: 8%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/logo-onia.png" alt="Drawing" style="width: 20%;"/> &nbsp;&nbsp;
+<img src="images/logo-onia.png" alt="" style="width: 20%;"/> &nbsp;&nbsp;
 </center> 

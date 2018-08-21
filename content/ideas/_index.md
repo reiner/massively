@@ -34,14 +34,14 @@ https://www.wikidata.org
 ##### Passenger Data (Public transportation)
 
 - SBB: [Passagierfrequenz](https://data.sbb.ch/explore/dataset/passagierfrequenz/)
-- VBZ: [Fahrgastzahlen](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd) (Stadt Zürich).
+- VBZ: [Fahrgastzahlen](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), City of Zurich.
 
 
 #### Landing Pages for Public transportation
 
 - Open Data Platform Swiss Public Transport: [Open Data Catalog](https://opentransportdata.swiss/en/)
 - SBB:  [Open Data Catalog](https://data.sbb.ch/explore/?sort=modified)
-- VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz)
+- VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz), City of Zurich.
 
 
 #### Bicycle- and Pedestriancounts

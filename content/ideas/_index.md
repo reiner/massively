@@ -3,9 +3,9 @@ description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 
-You can find an overview over existing proposals for hackday-projects on: www.hack.twist2018.ch. However, participants are free to pursue their own interests and propose projects themselfes. 
+You can find an overview over existing proposals for hackday-projects on: [www.hack.twist2018.ch](https://www.hack.twist2018.ch). However, as participants are free to pursue their own interests and propose projects themselfes, we provide a list of further datasources that could be interesting:
 
-# Some interesting Datasources
+### Some interesting Datasources
 
 #### Mobility
 - Detailed passenger-counts of selected tram stations, City of Zurich

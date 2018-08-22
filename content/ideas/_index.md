@@ -5,7 +5,7 @@ type = "page"
 
 You can find an overview over existing proposals for hackday-projects on: [www.hack.twist2018.ch](https://www.hack.twist2018.ch). However, as participants are free to pursue their own interests and propose projects themselfes, we provide a list of further datasources that could be interesting:
 
-### Some interesting Datasources
+### Additional interesting Datasources
 
 #### Mobility
 - Detailed passenger-counts of selected tram stations, City of Zurich
@@ -14,9 +14,10 @@ You can find an overview over existing proposals for hackday-projects on: [www.h
 - Members of the cantonal parliament since 1910, Canton of Zurich
 
 #### Spatial Data
-- Spatial raster data on population, employees ~~and buildings~~, Canton of Zurich **(test-datasets for TWIST2018 published)**
-- Geodata of building outlines with building age, Canton of Zurich
+- Spatial raster data on population, employees, Canton of Zurich **(test-datasets for TWIST2018)**
+
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich 
+
 
 ## Already available data sources
 

@@ -5,7 +5,7 @@ type = "page"
 
 We will provide an overview over existing proposals for hackday-projects. However, as participants are free to pursue their own interests and propose projects themselfes, we provide a list of further datasources that could be interesting:
 
-**this page will be updated shortly**
+**[this page will be updated shortly]**
 
 ### Datasources
 

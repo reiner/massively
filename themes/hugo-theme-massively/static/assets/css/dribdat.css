@@ -24,7 +24,7 @@ body {
 /* challenge hexagons coloring */
 
 .challenge.hexagon {
-    background-color: #f5cba7;
+    background-color: #f5cba7 !important;
     border-top: 1px dashed rgba(0,0,200,0.4);
     border-bottom: 1px dashed rgba(0,0,200,0.4);
 }

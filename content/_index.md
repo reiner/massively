@@ -11,21 +11,21 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 
 ## Schedule
 
-|Time |  Saturday 25.8.2018  | 
-|--------------------|--------------------|
-|8:30 |Doors are Open, Coffee and croissants|
-|09:00|Data & challenges presentations and Team building|
-|10:15|Teams start hacking|
-|12:00|Lunch break|
-|16:00 |Teams give a quick status update|
-|18:00|Dinner: who wants a pizza?|
-|22:00|Doors close (If you want to work on during the night, we will have possibilities!)|
+|Time |  Saturday 25.8.2018  |
+|----------------|--------------------|
+|8:30| Doors are Open, Coffee and croissants |
+|09:00| Data & challenges presentations and Team building |
+|10:15| Teams start hacking |
+|12:00| Lunch break |
+|16:00 | Teams give a quick status update |
+|18:00| Dinner: who wants a pizza? |
+|22:00| Doors close (If you want to work on during the night, we will have possibilities!) |
 
 |Time | Sunday 26.8.2018  |
 |--------------------|--------------------|
-|09:00 |  Brunch, Teams work together |
+|09:00|  Brunch, Teams work together |
 |12:00| Lunch |
-|16:00| Quick status update: What do we do / what do we need | Teams' final presentations (max. 45 mins.) |
+|16:00| Teams' final presentations (max. 45 mins.) |
 
 </center> 
 <center>

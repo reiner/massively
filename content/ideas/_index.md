@@ -18,9 +18,6 @@ You can find an overview over existing proposals for hackday-projects on: [www.h
 
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich 
 
-
-## Already available data sources
-
 ##### Wikidata : the free and open knowledge base
 
 If you're going for the linked open data challenge, there is hardly a way around wikidata!

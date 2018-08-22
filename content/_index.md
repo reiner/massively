@@ -12,7 +12,7 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 ## Schedule
 
 |Time |  Saturday 25.8.2018  | 
-|8:30 |Doors are Open, Coffee and croissants
+|8:30 |Doors are Open, Coffee and croissants|
 |09:00|Data & challenges presentations and Team building|
 |10:15|Teams start hacking|
 |12:00|Lunch break|

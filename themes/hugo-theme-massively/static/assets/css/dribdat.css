@@ -56,3 +56,17 @@ div.with-event {
  background-color: transparent !important;
  border-radius:.3rem
 }
+
+/* button-color*/
+.btn-success {
+ color:#fff;
+ background-color:black;
+ border-color:black;
+}
+.btn-success:hover {
+ color:#fff;
+ background-color:#EB791F;
+ border-color:#EB791F
+}
+
+

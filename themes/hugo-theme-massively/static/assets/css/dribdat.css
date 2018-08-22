@@ -57,13 +57,38 @@ div.with-event {
  border-radius:.3rem
 }
 
-/* button-color*/
+/* buttons*/
+/* challenge btn*/
 .btn-success {
  color:#fff;
  background-color:black;
  border-color:black;
 }
 .btn-success:hover {
+ color:#fff;
+ background-color:#EB791F;
+ border-color:#EB791F
+}
+
+/* landing page buttons*/
+
+.btn-warning {
+ color:#212529;
+ background-color:#d9d9d9;
+ border-color:#d9d9d9
+}
+.btn-warning:hover {
+ color:#212529;
+ background-color:#b3b3b3;
+ border-color:#b3b3b3
+}
+
+.btn-primary {
+ color:#fff;
+ background-color:#f0ae75;
+ border-color:#f0ae75
+}
+.btn-primary:hover {
  color:#fff;
  background-color:#EB791F;
  border-color:#EB791F

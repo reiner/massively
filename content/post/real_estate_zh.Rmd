@@ -25,7 +25,7 @@ As we've also prepared a data set containing information on the stock of housing
 
 We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. We've conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.
 
-## Data download and join with the hexbin information
+#### Data download and join with the hexbin information
 
 The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS. The following __code chunks__ help you with the download of the data and how the data can be joined to the hexbins to get the spatial information in __R__. 
 
@@ -38,7 +38,7 @@ You can find a data-description file under the following link:
 https://www.web.statistik.zh.ch/twist/Data_description.pdf
 
 
-#### how to load the data and join it to hexbin-shapefile in R
+#### example code for R
 ```{r setup_handänderungen, eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE}
 # load packages
 library(tidyverse)

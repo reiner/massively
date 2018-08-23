@@ -3,8 +3,7 @@ description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 
-We will provide an overview over existing proposals for hackday-projects. However, as participants are free to pursue their own interests and propose projects themselfes, we provide a list of further datasources that could be interesting:
-
+We will provide an overview over existing proposals for hackday-projects. However, as participants are free to pursue their own interests and propose projects themselfes, here is a list of potential datasources:
 **[this page will be updated shortly]**
 
 ### Datasources
@@ -13,15 +12,26 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 - Brand New! [Linked Open Statistical Data (LOSD), City of Zurich](https://data.stadt-zuerich.ch/dataset/stadt_zuerich_losd)
 
 #### Mobility
+- [Flights from / to Zurich Airport, 2017 *Challenge*](https://github.com/tlorusso/twist_zrh)
+
 - Detailed passenger-counts of selected tram stations, City of Zurich
 
 #### Politics
-- Members of the cantonal parliament since 1910, Canton of Zurich
+- [Members of the cantonal parliament since 1910, Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/krdaten_staatsarchiv/datenexporthinweise.html)
+
+- [Historical Archive of Popular Votes in the Canton of Zurich](https://opendata.swiss/de/dataset/abstimmungsarchiv-des-kantons-zurich)
+
+- [Split votes in the Election to the National council for the Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/wahlarchiv/nr_archiv/nationalratswahl2015/statistik-analyse/panaschierstatistik.html)
 
 #### Spatial Data
 - Spatial raster data on population, employees, Canton of Zurich **(test-datasets for TWIST2018)**
 
+1. [Population raster](https://www.web.statistik.zh.ch/twist/population_raster_ha.csv)
+
+2. [Employment raster](https://www.web.statistik.zh.ch/twist/empl_raster_ha.csv)
+
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich 
+
 
 ##### Wikidata : the free and open knowledge base
 

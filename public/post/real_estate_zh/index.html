@@ -93,7 +93,7 @@
 </div>
 <div id="help-us-understand-whether-data-sets-in-this-new-form-are-useful-and-save" class="section level4">
 <h4>Help us understand whether data sets in this new form are useful and save</h4>
-<p>We are eager to get feedback on whether such detailed single-record data meets user needs. We’ve alleviated the sensitivness of the highly detailed data. We’ve conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.</p>
+<p>We are eager to get feedback on whether such detailed single-record data meets user needs. We’ve alleviated the sensitivness of the highly detailed data. The most important step consisted in replacing the original geocoordinates with approximate information on where the object is located (hexagonal-cells of 1 square km). Further we’ve conducted tests for uniquenes and categorized variables to further lower. Help us improve, test the data for flaws and tell us how we could do better.</p>
 </div>
 <div id="data-download-and-join-with-the-hexbin-information" class="section level4">
 <h4>Data download and join with the hexbin information</h4>
@@ -131,6 +131,7 @@ EFH_Hexbins &lt;- EFH_hexbin_info  %&gt;% dplyr::group_by(GRID_ID) %&gt;% summar
 p &lt;- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) + ggtitle(&quot;Number of single-family-homes transactions of the year 2010&quot;) + coord_sf(datum = NA) 
 
 p</code></pre>
+<p><img src="/images/hexmap.png" width="100%"/><br></p>
 </div>
 
 

@@ -23,7 +23,7 @@ As we've also prepared a data set containing information on the stock of housing
 
 ####  Help us understand whether data sets in this new form are useful and save
 
-We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. We've conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.
+We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. The most important step consisted in replacing the original geocoordinates with approximate information on where the object is located (hexagonal-cells of 1 square km). Further we've conducted tests for uniquenes and categorized variables to further lower. Help us improve, test the data for flaws and tell us how we could do better.
 
 #### Data download and join with the hexbin information
 
@@ -90,4 +90,5 @@ p
 ```
 
 
+<img src="/images/hexmap.png" width="100%"/><br>
 

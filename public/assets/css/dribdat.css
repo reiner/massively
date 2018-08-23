@@ -60,7 +60,7 @@ div.with-event {
 /* buttons*/
 /* challenge btn*/
 .btn-success {
-    color: #FFF;
+    color: #FFF !important;
     background-color: #000;
     border-color: #000;
 }

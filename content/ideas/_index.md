@@ -35,38 +35,38 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 
 [METADATA](https://www.web.statistik.zh.ch/twist/Data_description.pdf)
 
-##### Wikidata : the free and open knowledge base
+#### Wikidata : the free and open knowledge base
 
 If you're going for the linked open data challenge, there is hardly a way around wikidata!
 
 https://www.wikidata.org
 
-##### Punctuality Data (Public transportation)
+#### Punctuality Data (Public transportation)
 
 - SBB: [Target-actual comparison of departure and arrival times at SBB (previous day)](https://data.sbb.ch/explore/dataset/ist-daten-sbb/)
 - VBZ: [Travel times of the VBZ in target-actual comparison](https://data.stadt-zuerich.ch/dataset/vbz-fahrzeiten-ogd)
 
-##### Passenger Data (Public transportation)
+#### Passenger Data (Public transportation)
 
 - SBB: [Passenger frequency](https://data.sbb.ch/explore/dataset/passagierfrequenz/)
 - VBZ: [Passenger countings](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), City of Zurich.
 
-#### Landing Pages for Public transportation
+### Landing Pages for Public transportation
 
 - Open Data Platform Swiss Public Transport: [Open Data Catalog](https://opentransportdata.swiss/en/)
 - SBB:  [Open Data Catalog](https://data.sbb.ch/explore/?sort=modified)
 - VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz), City of Zurich.
 
-#### Bicycle- and Pedestriancounts
+### Bicycle- and Pedestriancounts
 
 - [Bicycle and pedestrian count data](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo), City of Zurich.
 - [Positions of measuring stations for bicycles and pedestrians](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-standorte-velo-fussgaenger), City of Zurich.
 - Brand New: [Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne ](). Not Open Data yet.
 
-#### Aviation data
+### Aviation data
 - [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
 
-#### Wheater Data
+### Wheater Data
 - Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_hourly_cities_2017.zip). Not Open Data yet.
 - Brand New: [Weather data on daily basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_daily_cities_2017.zip). Not Open Data yet.
 

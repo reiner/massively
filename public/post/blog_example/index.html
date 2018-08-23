@@ -84,23 +84,24 @@
                             
                             <div class="image main"><img src="/images/realestate.jpg" alt="" /></div>
                             
-                            <div id="real-estate-market-of-the-canton-of-zurich" class="section level2">
-<h2>Real estate market of the canton of Zurich</h2>
+                            <div id="real-estate-market-of-the-canton-of-zurich" class="section level4">
+<h4>Real estate market of the canton of Zurich</h4>
 <p>The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the twist-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.</p>
 </div>
-<div id="high-resolution-spatial-dataset-on-real-estate-trades" class="section level2">
-<h2>high resolution spatial dataset on real estate trades</h2>
+<div id="high-resolution-spatial-dataset-on-real-estate-trades" class="section level4">
+<h4>high resolution spatial dataset on real estate trades</h4>
 <p>You get a first-time opportunity to work with a high-resolution spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution.</p>
 </div>
-<div id="explore-real-estate-market-activity-spatially-and-over-time" class="section level2">
-<h2>Explore real estate market activity spatially and over time</h2>
+<div id="explore-real-estate-market-activity-spatially-and-over-time" class="section level4">
+<h4>Explore real estate market activity spatially and over time</h4>
 <p>The data set allows to follow the real estate market over the years 2010 to 2014. It can thus be used to analyze the activity on the housing market over space and time. Where has the market been expecially liquid - where could the most apartment or single-family homes trades be observed?</p>
 <p>As we’ve also prepared a data set containing information on the stock of housing over the same hexagon-raster, the trading-data can be set into relation with the number of potentially tradable objects. What patterns come to light when the number of trades are set into relation with the number of existing housing units within the same area?</p>
 <p>It might be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets, such as open street map.</p>
 </div>
-<div id="help-us-understand-whether-data-sets-in-this-new-form-are-useful-and-save" class="section level1">
-<h1>Help us understand whether data sets in this new form are useful and save</h1>
+<div id="help-us-understand-whether-data-sets-in-this-new-form-are-useful-and-save" class="section level4">
+<h4>Help us understand whether data sets in this new form are useful and save</h4>
 <p>We are eager to get feedback on whether such detailed single-record data meets user needs. We’ve alleviated the sensitivness of the highly detailed data. We’ve conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.</p>
+</div>
 <div id="data-download-and-join-with-the-hexbin-information" class="section level3">
 <h3>Data download and join with the hexbin information</h3>
 <p>The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS.</p>
@@ -135,7 +136,6 @@ EFH_Hexbins &lt;- EFH_hexbin_info  %&gt;% dplyr::group_by(GRID_ID) %&gt;% summar
 p &lt;- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) + ggtitle(&quot;Number of single-family-homes transactions of the year 2010&quot;) + coord_sf(datum = NA) 
 
 p</code></pre>
-</div>
 </div>
 
 

@@ -11,15 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-## Real estate market of the canton of Zurich
+#### Real estate market of the canton of Zurich
 
 The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the twist-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.
 
-## high resolution spatial dataset on real estate trades
+####  high resolution spatial dataset on real estate trades
 
 You get a first-time opportunity to work with a high-resolution spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
 
-## Explore real estate market activity spatially and over time
+####  Explore real estate market activity spatially and over time
 
 The data set allows to follow the real estate market over the years 2010 to 2014. It can thus be used to analyze the activity on the housing market over space and time. Where has the market been expecially liquid - where could the most apartment or single-family homes trades be observed? 
 
@@ -27,7 +27,7 @@ As we've also prepared a data set containing information on the stock of housing
 
 It might be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets, such as open street map.
 
-# Help us understand whether data sets in this new form are useful and save
+####  Help us understand whether data sets in this new form are useful and save
 
 We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. We've conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.
 
@@ -70,8 +70,6 @@ hexbin <- read_sf(paste0("path","Hexbins.shp"))
 
 
 ```
-
-
 
 
 ```{r join to hexbins, eval=FALSE, echo=TRUE, message=FALSE}

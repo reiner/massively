@@ -14,8 +14,6 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 #### Mobility
 - [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
 
-- Detailed passenger-counts of selected tram stations, City of Zurich
-
 #### Politics
 - [Members of the cantonal parliament since 1910, Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/krdaten_staatsarchiv/datenexporthinweise.html)
 
@@ -32,6 +30,11 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 
 - Spatially disaggregated data on real-estate transactions, Canton of Zurich 
 
+1. [Single Familiy Home Transactions](https://www.web.statistik.zh.ch/twist/total_dataset_efh_en.csv)
+
+2. [Apartment Transactions](https://www.web.statistik.zh.ch/twist/total_dataset_STW_en.csv)
+
+3. [Hexbin-grid shapefile](https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip)
 
 ##### Wikidata : the free and open knowledge base
 
@@ -49,13 +52,11 @@ https://www.wikidata.org
 - SBB: [Passenger frequency](https://data.sbb.ch/explore/dataset/passagierfrequenz/)
 - VBZ: [Passenger countings](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), City of Zurich.
 
-
 #### Landing Pages for Public transportation
 
 - Open Data Platform Swiss Public Transport: [Open Data Catalog](https://opentransportdata.swiss/en/)
 - SBB:  [Open Data Catalog](https://data.sbb.ch/explore/?sort=modified)
 - VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz), City of Zurich.
-
 
 #### Bicycle- and Pedestriancounts
 

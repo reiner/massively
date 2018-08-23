@@ -68,9 +68,9 @@ https://www.wikidata.org
 
 
 
-### Wheater Data
-- Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_hourly_cities_2017.zip). Not Open Data yet.
-- Brand New: [Weather data on daily basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_daily_cities_2017.zip). Not Open Data yet.
+### Weather Data
+- Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_hourly_cities_2017.zip). Not Open Data yet.
+- Brand New: [Weather data on daily basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_daily_cities_2017.zip). Not Open Data yet.
 
 ### Open Data sources with reference to Switzerland (A-Z)
 [Canton of Basel-Stadt](http://www.staatskanzlei.bs.ch/oeffentlichkeitsprinzip/ogd/datenkatalog.html)

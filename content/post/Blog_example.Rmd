@@ -11,11 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-#### Real estate market trading activity in the Canton of Zurich
+####  a high resolution spatial dataset on real estate trades
 
-The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the TWIST-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.
-
-####  high resolution spatial dataset on real estate trades
+__The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the TWIST-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.__
 
 You get a first-time opportunity to work with a high-resolution spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
 

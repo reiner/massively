@@ -12,7 +12,7 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 - Brand New! [Linked Open Statistical Data (LOSD), City of Zurich](https://data.stadt-zuerich.ch/dataset/stadt_zuerich_losd)
 
 #### Mobility
-- [Flights from / to Zurich Airport, 2017 *Challenge*](https://github.com/tlorusso/twist_zrh)
+- [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
 
 - Detailed passenger-counts of selected tram stations, City of Zurich
 

@@ -11,9 +11,6 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 #### Linked Open Statistical Data (LOSD)
 - Brand New! [Linked Open Statistical Data (LOSD), City of Zurich](https://data.stadt-zuerich.ch/dataset/stadt_zuerich_losd)
 
-#### Mobility
-- [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
-
 #### Politics
 - [Members of the cantonal parliament since 1910, Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/krdaten_staatsarchiv/datenexporthinweise.html)
 
@@ -63,6 +60,9 @@ https://www.wikidata.org
 - [Bicycle and pedestrian count data](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo), City of Zurich.
 - [Positions of measuring stations for bicycles and pedestrians](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-standorte-velo-fussgaenger), City of Zurich.
 - Brand New: [Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne ](). Not Open Data yet.
+
+#### Aviation data
+- [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
 
 #### Wheater Data
 - Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_hourly_cities_2017.zip). Not Open Data yet.

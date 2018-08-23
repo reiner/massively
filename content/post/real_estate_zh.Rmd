@@ -19,7 +19,7 @@ You get a first-time opportunity to work with a __high-resolution spatial datase
 
 The data set allows to follow the real estate market over the years 2010 to 2014. It can thus be used to analyze the activity on the housing market over space and time. Where has the market been expecially liquid - where could the most apartment or single-family homes trades be observed? 
 
-As we've also prepared a data set containing information on the stock of housing over the same hexagon-grid, the trading-data can be set into relation with the number of potentially tradable objects. What patterns come to light when the number of trades are set into relation with the number of existing housing units within the same area? It might as well be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets, such as open street map.
+As we've also prepared a data set containing information on the stock of housing over the same hexagon-grid, the trading-data can be set into relation with the number of potentially tradable objects. What patterns come to light when the number of trades are set into relation with the number of existing housing units within the same area? It might as well be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets.
 
 ####  Help us understand whether data sets in this new form are useful and save
 

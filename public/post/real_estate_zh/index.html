@@ -95,14 +95,15 @@
 <h4>Help us understand whether data sets in this new form are useful and save</h4>
 <p>We are eager to get feedback on whether such detailed single-record data meets user needs. We’ve alleviated the sensitivness of the highly detailed data. We’ve conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.</p>
 </div>
-<div id="data-download-and-join-with-the-hexbin-information" class="section level2">
-<h2>Data download and join with the hexbin information</h2>
+<div id="data-download-and-join-with-the-hexbin-information" class="section level4">
+<h4>Data download and join with the hexbin information</h4>
 <p>The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS. The following <strong>code chunks</strong> help you with the download of the data and how the data can be joined to the hexbins to get the spatial information in <strong>R</strong>.</p>
 <p>The Hexbins need to be downloaded and unziped seperately. You can read the shapefile with the read_sf()-function from the sf-package.</p>
 <p>You can find the zip-file under the following link: <a href="https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip" class="uri">https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip</a></p>
 <p>You can find a data-description file under the following link: <a href="https://www.web.statistik.zh.ch/twist/Data_description.pdf" class="uri">https://www.web.statistik.zh.ch/twist/Data_description.pdf</a></p>
-<div id="how-to-load-the-data-and-join-it-to-hexbin-shapefile-in-r" class="section level4">
-<h4>how to load the data and join it to hexbin-shapefile in R</h4>
+</div>
+<div id="example-code-for-r" class="section level4">
+<h4>example code for R</h4>
 <pre class="r"><code># load packages
 library(tidyverse)
 library(sf)
@@ -130,7 +131,6 @@ EFH_Hexbins &lt;- EFH_hexbin_info  %&gt;% dplyr::group_by(GRID_ID) %&gt;% summar
 p &lt;- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) + ggtitle(&quot;Number of single-family-homes transactions of the year 2010&quot;) + coord_sf(datum = NA) 
 
 p</code></pre>
-</div>
 </div>
 
 

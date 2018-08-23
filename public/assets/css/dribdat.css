@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+/* background img*/
+body {
+    background-image: url(https://www.twist2018.ch/images/overlay.png), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://www.twist2018.ch/images/bg.jpg);
+    background-size: auto, auto, 100% auto;
+    background-position: center, center, top center;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll;
+}
+
+
+/* title fonts */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+    margin-bottom: .5rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    color: black;
+
+}
+
+
+div.section-header-content h3, div.section-header-content h4 {
+
+color: white;
+
+}
+
+
+/* challenge hexagons coloring */
+
+.challenge.hexagon {
+    background-color: #e9dede !important;
+    border-top: 1px dashed rgba(0,0,200,0.4);
+    border-bottom: 1px dashed rgba(0,0,200,0.4);
+}
+
+.hexagon:nth-child(2n) {
+
+    background-color: #b09d9d !important
+
+}
+
+div.with-event {
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.9);
+    
+}
+
+/* project-page css*/
+.jumbotron {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color: transparent !important;
+ border-radius:.3rem
+}
+
+/* buttons*/
+/* challenge btn*/
+.btn-success {
+    color: #FFF;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-success:hover {
+ color:#fff;
+ background-color:#EB791F;
+ border-color:#EB791F
+}
+
+/* landing page buttons*/
+
+.btn-warning {
+ color:#212529;
+ background-color:#d9d9d9;
+ border-color:#d9d9d9
+}
+.btn-warning:hover {
+ color:#212529;
+ background-color:#b3b3b3;
+ border-color:#b3b3b3
+}
+
+.btn-primary {
+ color:#fff;
+ background-color:#f0ae75;
+ border-color:#f0ae75
+}
+
+.btn-primary:hover {
+ color:#fff;
+ background-color:#EB791F;
+ border-color:#EB791F
+}
+
+/* challenge hexagons */
+.hexagontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 140%;
+    font-size: 1.0rem;
+    line-height: 1.2;
+    z-index: 100;
+    font-weight: bold !important;
+	color: #000 !important;
+}
+
+

@@ -1,0 +1,93 @@
+---
+title: "housing market activity over space and time"
+description: Explore the real estate market activity in the Canton of Zurich over space and time
+date: '2018-08-23T14:41:19+02:00'
+image: images/realestate.jpg
+draft: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+__The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the TWIST-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.__
+
+You get a first-time opportunity to work with a __high-resolution spatial dataset of real estate trades__. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
+
+####  Explore real estate market activity spatially and over time
+
+The data set allows to follow the real estate market over the years 2010 to 2014. It can thus be used to analyze the activity on the housing market over space and time. Where has the market been expecially liquid - where could the most apartment or single-family homes trades be observed? 
+
+As we've also prepared a data set containing information on the stock of housing over the same hexagon-grid, the trading-data can be set into relation with the number of potentially tradable objects. What patterns come to light when the number of trades are set into relation with the number of existing housing units within the same area? It might as well be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets, such as open street map.
+
+####  Help us understand whether data sets in this new form are useful and save
+
+We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. We've conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.
+
+## Data download and join with the hexbin information
+
+The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS. The following __code chunks__ help you with the download of the data and how the data can be joined to the hexbins to get the spatial information in __R__. 
+
+The Hexbins need to be downloaded and unziped seperately. You can read the shapefile with the read_sf()-function from the sf-package.
+
+You can find the zip-file under the following link:
+https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip
+
+You can find a data-description file under the following link:
+https://www.web.statistik.zh.ch/twist/Data_description.pdf
+
+
+#### how to load the data and join it to hexbin-shapefile in R
+```{r setup_handänderungen, eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+library(sf)
+library(ggplot2)
+
+```
+
+
+```{r load_data, eval=FALSE, echo=TRUE, message=FALSE}
+
+# load the data
+
+single_familiy_home_transactions <- read.csv("https://www.web.statistik.zh.ch/twist/total_dataset_efh_en.csv")
+
+apartment_transactions <- read.csv("https://www.web.statistik.zh.ch/twist/total_dataset_STW_en.csv")
+
+total_house_stock <- read.csv("https://www.web.statistik.zh.ch/twist/GWR_Datensatz/total_dataset_GWR.csv")
+
+hexbin <- read_sf(paste0("path","Hexbins.shp"))
+
+
+```
+
+
+```{r join to hexbins, eval=FALSE, echo=TRUE, message=FALSE}
+
+# join the transaction data to the hexbins
+
+EFH_hexbin_info <- hexbins_reduced %>% left_join(single_familiy_home_transactions %>% dplyr::filter(year==2010) , by = "GRID_ID") %>% st_as_sf(crs=2056)
+
+STW_hexbin_info <- hexbins_reduced %>% left_join(apartment_transactions %>% dplyr::filter(year==2010), by = "GRID_ID") %>% st_as_sf(crs=2056)
+
+```
+
+
+```{r plot the HAE, eval=FALSE, echo=TRUE}
+
+# aggregation of the single-family homes data
+
+EFH_Hexbins <- EFH_hexbin_info  %>% dplyr::group_by(GRID_ID) %>% summarize(Number_EFH_transactions = sum(!is.na(recordid)))
+
+# plot the number of single-family homes transactions for the year 2010 data
+
+p <- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) + ggtitle("Number of single-family-homes transactions of the year 2010") + coord_sf(datum = NA) 
+
+p
+
+```
+
+
+

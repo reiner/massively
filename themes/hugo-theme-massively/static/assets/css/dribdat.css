@@ -60,10 +60,11 @@ div.with-event {
 /* buttons*/
 /* challenge btn*/
 .btn-success {
- color:#fff;
+ color:#fff !important;
  background-color:black;
  border-color:black;
 }
+
 .btn-success:hover {
  color:#fff;
  background-color:#EB791F;
@@ -93,12 +94,6 @@ div.with-event {
  color:#fff;
  background-color:#EB791F;
  border-color:#EB791F
-}
-
-.btn-success {
-    color: whitesmoke !important;
-    background-color: #28a745;
-    border-color: #28a745;
 }
 
 /* challenge hexagons */

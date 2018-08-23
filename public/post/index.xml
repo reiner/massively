@@ -6,10 +6,20 @@
     <description>Recent content in Posts on TWIST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 14:41:19 +0200</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>housing market activity over space and time</title>
+      <link>/post/blog_example/</link>
+      <pubDate>Thu, 23 Aug 2018 14:41:19 +0200</pubDate>
+      
+      <guid>/post/blog_example/</guid>
+      <description>Real estate market of the canton of ZurichThe events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the twist-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.
+high resolution spatial dataset on real estate tradesYou get a first-time opportunity to work with a high-resolution spatial dataset of real estate trades.</description>
+    </item>
     
     <item>
       <title>Three stories about a child</title>

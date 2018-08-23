@@ -1,6 +1,9 @@
 ---
-title: "Blogpost Real Estate Market"
-output: html_document
+title: "housing market activity over space and time"
+description: Explore the housing market activity in the Canton of Zurich over space and time
+date: '2018-08-23T14:41:19+02:00'
+image: images/realestate.jpg
+draft: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -10,20 +13,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Real estate market of the canton of Zurich
 
+The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich. At the twist-hackdays, for the first time, an open test-data set that includes all real estate transactions in the period 2010-2014 is being made available to the public.
 
-The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich.  
+## high resolution spatial dataset on real estate trades
 
-In occasion of the twist-hackdays, as a premiere, an (open) test-data set on the real estate market in the canton Zurich will be released.
+You get a first-time opportunity to work with a high-resolution spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
 
-You get a first-time opportunity to work with a spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
-Thus, you will be able to follow the real estate market over the years 2010 to 2014 and maybe find out in which region the most condos or single-family homes were traded. Maybe you find certain patterns in the distribution and find coherent explanations by using other open data sets such as open street map. 
+## Explore real estate market activity spatially and over time
 
-To alleviate the sensitivness of the data we cundected steps such as create categories of the variables or anonymise unique identifiable objects. 
-Help us to improve this steps and the dataset! You could make a challenge to thoroughly test the data for flaws. 
+The data set allows to follow the real estate market over the years 2010 to 2014. It can thus be used to analyze the activity on the housing market over space and time. Where has the market been expecially liquid - where could the most apartment or single-family homes trades be observed? 
 
-The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS.
+As we've also prepared a data set containing information on the stock of housing over the same hexagon-raster, the trading-data can be set into relation with the number of potentially tradable objects. What patterns come to light when the number of trades are set into relation with the number of existing housing units within the same area?
+
+It might be intriguing to find patterns and to provide spatial explanations by recurring to other open data sets, such as open street map.
+
+# Help us understand whether data sets in this new form are useful and save
+
+We are eager to get feedback on whether such detailed single-record data meets user needs. We've alleviated the sensitivness of the highly detailed data. We've conducted several steps (tests for uniquenes and followingly categorization of the variables) to anonymise unique identifiable objects. Help us improve by, test the data for flaws and tell us how we could do better.
 
 ### Data download and join with the hexbin information
+
+The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS.
 
 The following code chunks help you with the download of the data and how the data can be joined to the hexbins to get the spatial information. 
 

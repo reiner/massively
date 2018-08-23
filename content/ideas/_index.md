@@ -57,14 +57,16 @@ https://www.wikidata.org
 - SBB:  [Open Data Catalog](https://data.sbb.ch/explore/?sort=modified)
 - VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz), City of Zurich.
 
+### Aviation data
+)https://github.com/tlorusso/twist_zrh)
+
 ### Bicycle- and Pedestriancounts
 
 - [Bicycle and pedestrian count data](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo), City of Zurich.
 - [Positions of measuring stations for bicycles and pedestrians](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-standorte-velo-fussgaenger), City of Zurich.
-- Brand New: [Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne ](). Not Open Data yet.
+- Brand New: [Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne ](http://statistik.stadt-zuerich.ch/modules/twist2018/swiss_cities_bicycle_countings.zip). Not Open Data yet.
 
-### Aviation data
-- [Flights from / to Zurich Airport, 2017](https://github.com/tlorusso/twist_zrh)
+
 
 ### Wheater Data
 - Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weahterdata_hourly_cities_2017.zip). Not Open Data yet.

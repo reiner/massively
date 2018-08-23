@@ -19,7 +19,7 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 - [Split votes in the Election to the National council for the Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/wahlarchiv/nr_archiv/nationalratswahl2015/statistik-analyse/panaschierstatistik.html)
 
 #### Spatial Data
-- Spatial raster data on population, employees, Canton of Zurich **(test-datasets for TWIST2018)**
+- Spatial raster data on population and employement, Canton of Zurich
 
 1. [Population raster](https://www.web.statistik.zh.ch/twist/population_raster_ha.csv)
 
@@ -32,6 +32,8 @@ We will provide an overview over existing proposals for hackday-projects. Howeve
 2. [Apartment Transactions](https://www.web.statistik.zh.ch/twist/total_dataset_STW_en.csv)
 
 3. [Hexbin-grid shapefile](https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip)
+
+[METADATA](https://www.web.statistik.zh.ch/twist/Data_description.pdf)
 
 ##### Wikidata : the free and open knowledge base
 

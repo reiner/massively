@@ -1,0 +1,92 @@
+---
+title: "Blogpost Real Estate Market"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+## Real estate market of the canton of Zurich
+
+
+The events on the real estate market are followed meticulously by many. No wonder that the property transfer statistics are among the top sought-after statistical data sets in the Canton of Zurich.  
+
+In occasion of the twist-hackdays, as a premiere, an (open) test-data set on the real estate market in the canton Zurich will be released.
+
+You get a first-time opportunity to work with a spatial dataset of real estate trades. The dataset consists of single trade entries with specifications about the construction year, the number of rooms as well as the living and property areas. These information are given in categories. Furthermore, a spatial component is given in form of a hexbin ID which allows you to join the data to a hexbin grid with a 1 square kilometer resolution. 
+Thus, you will be able to follow the real estate market over the years 2010 to 2014 and maybe find out in which region the most condos or single-family homes were traded. Maybe you find certain patterns in the distribution and find coherent explanations by using other open data sets such as open street map. 
+
+To alleviate the sensitivness of the data we cundected steps such as create categories of the variables or anonymise unique identifiable objects. 
+Help us to improve this steps and the dataset! You could make a challenge to thoroughly test the data for flaws. 
+
+The data is best analysed in R (or other programming languages) since it consists of single data entries but the location is aggregated. Therefore, an aggreagation of the single entries would be needed to use it as a shapefile in ArcGIS or QGIS.
+
+### Data download and join with the hexbin information
+
+The following code chunks help you with the download of the data and how the data can be joined to the hexbins to get the spatial information. 
+
+The Hexbins need to be downloaded and unziped seperately. You can read the shapefile with the read_sf()-function from the sf-package.
+
+You can find the zip-file under the following link:
+"https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip"
+
+You can find a data-description file under the following link:
+"https://www.web.statistik.zh.ch/twist/Data_description.pdf"
+
+
+
+```{r setup_handänderungen, eval=FALSE, echo=TRUE, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+library(sf)
+library(ggplot2)
+
+```
+
+
+```{r load_data, eval=FALSE, echo=TRUE, message=FALSE}
+
+# load the data
+
+single_familiy_home_transactions <- read.csv("https://www.web.statistik.zh.ch/twist/total_dataset_efh_en.csv")
+
+apartment_transactions <- read.csv("https://www.web.statistik.zh.ch/twist/total_dataset_STW_en.csv")
+
+total_house_stock <- read.csv("https://www.web.statistik.zh.ch/twist/GWR_Datensatz/total_dataset_GWR.csv")
+
+hexbin <- read_sf(paste0("path","Hexbins.shp"))
+
+
+```
+
+
+
+
+```{r join to hexbins, eval=FALSE, echo=TRUE, message=FALSE}
+
+# join the transaction data to the hexbins
+
+EFH_hexbin_info <- hexbins_reduced %>% left_join(single_familiy_home_transactions %>% dplyr::filter(year==2010) , by = "GRID_ID") %>% st_as_sf(crs=2056)
+
+STW_hexbin_info <- hexbins_reduced %>% left_join(apartment_transactions %>% dplyr::filter(year==2010), by = "GRID_ID") %>% st_as_sf(crs=2056)
+
+```
+
+
+```{r plot the HAE, eval=FALSE, echo=TRUE}
+
+# aggregation of the single-family homes data
+
+EFH_Hexbins <- EFH_hexbin_info  %>% dplyr::group_by(GRID_ID) %>% summarize(Number_EFH_transactions = sum(!is.na(recordid)))
+
+# plot the number of single-family homes transactions for the year 2010 data
+
+p <- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) + ggtitle("Number of single-family-homes transactions of the year 2010") + coord_sf(datum = NA) 
+
+p
+
+```
+
+

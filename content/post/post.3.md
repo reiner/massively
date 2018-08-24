@@ -44,5 +44,5 @@ Want to help citizens and other stakeholders gain new insights and get a better 
 
 [Municipal Finances Portrait Open Data](https://opendata.swiss/de/organization/statistisches-amt-kanton-zuerich?groups=finances)
 
-Municipal Audit Commission API : coming soon to [data.stadt-zuerich.ch](https://data.stadt-zuerich.ch/)
+[RPK-API (Municipal Audit Commission API) from the City of Zurich](https://data.stadt-zuerich.ch/dataset/fd_rpktool): just released as Open Data for the TWIST-Hackdays(!)
 

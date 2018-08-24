@@ -72,7 +72,7 @@ https://www.wikidata.org
 - VBZ: [Open Data Catalog](https://data.stadt-zuerich.ch/dataset?q=tags%3Dvbz&tags=vbz), City of Zurich.
 
 #### Aviation data
-[Data & metadata on github](https://github.com/tlorusso/twist_zrh), Not Open Data.
+[Flights from / to Zurich Airport, Data & metadata on github](https://github.com/tlorusso/twist_zrh), Not Open Data.
 
 #### Bicycle- and Pedestriancounts
 

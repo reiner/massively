@@ -33,6 +33,9 @@ However, as participants are free to pursue their own interests and propose proj
  - [Hexbin-grid shapefile](https://www.web.statistik.zh.ch/twist/Hexbins_1sqkm.zip)
  - [Metadata](https://www.web.statistik.zh.ch/twist/Data_description.pdf)
 
+#### Adress Data
+ - [Swiss building addresses](https://data.geo.admin.ch/ch.bfs.gebaeude_wohnungs_register/), published via the Federal Geoportal. CC-BY-like license. Also accessible via [GeoAdmin API](http://api3.geo.admin.ch/services/sdiservices.html#search). 
+
 #### Wikidata : the free and open knowledge base
 
 If you're going for the linked open data challenge, there is hardly a way around wikidata!
@@ -48,6 +51,18 @@ https://www.wikidata.org
 
 - SBB: [Passenger frequency](https://data.sbb.ch/explore/dataset/passagierfrequenz/)
 - VBZ: [Passenger countings](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), City of Zurich.
+
+- VBZ: Data of the counting system in selected vehicles: [T_Messfahrten.zip](http://statistik.stadt-zuerich.ch/modules/twist2018/vbz/T_Messfahrten.zip). Not Open Data. For TWIST2018 only.
+- VBZ: Wifi – Registrations from selected stations : [WLAN_Daten_TWIST.zip](http://statistik.stadt-zuerich.ch/modules/twist2018/vbz/WLAN_Daten_TWIST.zip). Not Open Data. For TWIST2018 only.
+
+- SBB: [Passenger countings from the stairs and ramps at Hardbrücke](https://data.sbb.ch/explore/dataset/twist-anzahl-personen-pro-aufgang). Each ascent is documented on how many people went up and down during 4 days. Not Open Data. For TWIST only. Further datasets for the platform surely are helpful:
+  - [platform edge](https://data.sbb.ch/explore/dataset/perronkante/table/?refine.bps=ZHDB) 
+  - [sector panels on the platform](https://data.sbb.ch/explore/dataset/sektortafel/table/?q=zhdb)
+  - [stairs and ramps](https://data.sbb.ch/explore/dataset/rampe-treppe/table/?q=zh&refine.bps=ZHDB&location=18,47.38517,8.51704&basemap=128b5a)
+  - and the [timetable data](https://opentransportdata.swiss/search?q=fahrplan) on Opentransportdata.swiss
+
+- [Movements of persons on the platform (objectstream.csv)](http://statistik.stadt-zuerich.ch/modules/twist2018/sbb/objectstream.zip) are also documented and available to work with at TWIST. In this dataset, the location of each person on the platform is recorded every second (attention, the dataset is more than 1GB in size. The zip-File ~200 MB). Not Open Data. For TWIST only.
+
 
 #### Landing Pages for Public transportation
 

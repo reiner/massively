@@ -122,6 +122,7 @@ hexbin &lt;- read_sf(paste0(&quot;path&quot;,&quot;Hexbins.shp&quot;))</code></p
 EFH_hexbin_info &lt;- hexbins_reduced %&gt;% left_join(single_familiy_home_transactions %&gt;% dplyr::filter(year==2010) , by = &quot;GRID_ID&quot;) %&gt;% st_as_sf(crs=2056)
 
 STW_hexbin_info &lt;- hexbins_reduced %&gt;% left_join(apartment_transactions %&gt;% dplyr::filter(year==2010), by = &quot;GRID_ID&quot;) %&gt;% st_as_sf(crs=2056)</code></pre>
+<p>Let’s take a first glimpse at the data!</p>
 <pre class="r"><code># aggregation of the single-family homes data
 
 EFH_Hexbins &lt;- EFH_hexbin_info  %&gt;% dplyr::group_by(GRID_ID) %&gt;% summarize(Number_EFH_transactions = sum(!is.na(recordid)))

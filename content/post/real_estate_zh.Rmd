@@ -74,7 +74,7 @@ STW_hexbin_info <- hexbins_reduced %>% left_join(apartment_transactions %>% dply
 
 ```
 
-
+Let's take a first glimpse at the data!
 ```{r plot the HAE, eval=FALSE, echo=TRUE}
 
 # aggregation of the single-family homes data
@@ -88,7 +88,6 @@ p <- ggplot() + geom_sf(data = EFH_Hexbins, aes(fill=Number_EFH_transactions) ) 
 p
 
 ```
-
 
 <img src="/images/hexmap.png" width="100%"/><br>
 

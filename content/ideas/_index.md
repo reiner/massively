@@ -3,7 +3,7 @@ description = "Data is a source of ideas. Ideas are drivers for open data."
 type = "page"
 +++
 
-We will collect and showcase all the hackday-projects on __in one place__ on https://hack.twist2018.ch/ . There you can already find an overview over the challenges and hackday-project proposals.
+During the event, we will collect and showcase all the hackday-projects __in one place__ on https://hack.twist2018.ch/ . There you can already find an overview over the challenges and hackday-project proposals.
 
 <center><a target="_blank" href="https://hack.twist2018.ch/" class="button back alt2">hack.twist2018.ch </a></center>
 

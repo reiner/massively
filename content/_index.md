@@ -19,7 +19,7 @@ https://www.statistiktage.ch/en/">Swiss Statistics Meeting 2018</a> in Zurich.
 |12:00| Lunch break |
 |16:00 | Teams give a quick status update |
 |18:00| Dinner: who wants a pizza? |
-|After 22:00| If you want to hack during the night, we will have possibilities! |
+|After 22:00| If you want to hack during the night, we will make it possible! |
 
 |Time | Sunday 26.8.2018  |
 |--------------------|--------------------|

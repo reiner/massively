@@ -17,6 +17,8 @@ However, as participants are free to pursue their own interests and propose proj
 #### Financial Data
 - Brand New! [RPK-API, City of Zurich](https://data.stadt-zuerich.ch/dataset/fd_rpktool). REST-API for live-requests to the RPK‘s Webtool, containing detailed data about budgets and annual financial statements since 2012.
 
+- [Municipal Finances Portrait Open Data, Canton of Zurich](https://opendata.swiss/de/organization/statistisches-amt-kanton-zuerich?groups=finances)
+
 #### Politics
 - [Members of the cantonal parliament since 1910, Canton of Zurich](https://wahlen-abstimmungen.zh.ch/internet/justiz_inneres/wahlen-abstimmungen/de/wahlen/krdaten_staatsarchiv/datenexporthinweise.html)
 - [Historical Archive of Popular Votes in the Canton of Zurich](https://opendata.swiss/de/dataset/abstimmungsarchiv-des-kantons-zurich)

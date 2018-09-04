@@ -53,16 +53,16 @@ https://www.wikidata.org
 - SBB: [Passenger frequency](https://data.sbb.ch/explore/dataset/passagierfrequenz/)
 - VBZ: [Passenger countings](https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), City of Zurich.
 
-- VBZ: Data of the counting system in selected vehicles: [T_Messfahrten.zip](http://statistik.stadt-zuerich.ch/modules/twist2018/vbz/T_Messfahrten.zip). Not Open Data. For TWIST2018 only.
-- VBZ: Wifi – Registrations from selected stations : [WLAN_Daten_TWIST.zip](http://statistik.stadt-zuerich.ch/modules/twist2018/vbz/WLAN_Daten_TWIST.zip). Not Open Data. For TWIST2018 only.
+- VBZ: Data of the counting system in selected vehicles: *T_Messfahrten.zip*. Not Open Data. For TWIST2018 only.
+- VBZ: Wifi – Registrations from selected stations : *WLAN_Daten_TWIST.zip*. Not Open Data. For TWIST2018 only.
 
-- SBB: [Passenger countings from the stairs and ramps at Hardbrücke](https://data.sbb.ch/explore/dataset/twist-anzahl-personen-pro-aufgang). Each ascent is documented on how many people went up and down during 4 days. Not Open Data. For TWIST only. Further datasets for the platform surely are helpful:
+- SBB: *Passenger countings from the stairs and ramps at Hardbrücke*. Each ascent is documented on how many people went up and down during 4 days. Not Open Data. For TWIST only. Further datasets for the platform surely are helpful:
   - [platform edge](https://data.sbb.ch/explore/dataset/perronkante/table/?refine.bps=ZHDB) 
   - [sector panels on the platform](https://data.sbb.ch/explore/dataset/sektortafel/table/?q=zhdb)
   - [stairs and ramps](https://data.sbb.ch/explore/dataset/rampe-treppe/table/?q=zh&refine.bps=ZHDB&location=18,47.38517,8.51704&basemap=128b5a)
   - and the [timetable data](https://opentransportdata.swiss/search?q=fahrplan) on Opentransportdata.swiss
 
-- [Movements of persons on the platform (objectstream.csv)](http://statistik.stadt-zuerich.ch/modules/twist2018/sbb/objectstream.zip) are also documented and available to work with at TWIST. In this dataset, the location of each person on the platform is recorded every second (attention, the dataset is more than 1GB in size. The zip-File ~200 MB). Not Open Data. For TWIST only.
+- Movements of persons on the platform (objectstream.csv). Are also documented and available to work with at TWIST. In this dataset, the location of each person on the platform is recorded every second (attention, the dataset is more than 1GB in size. The zip-File ~200 MB). Not Open Data. For TWIST only.
 
 
 #### Landing Pages for Public transportation
@@ -78,12 +78,12 @@ https://www.wikidata.org
 
 - [Bicycle and pedestrian count data](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-werte-fussgaenger-velo), City of Zurich.
 - [Positions of measuring stations for bicycles and pedestrians](https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen-standorte-velo-fussgaenger), City of Zurich.
-- Brand New: [Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne ](http://statistik.stadt-zuerich.ch/modules/twist2018/swiss_cities_bicycle_countings.zip). Not Open Data yet.
+- Brand New: *Bicyle counts from the Cities of Basel, St. Gallen, Lucerne and Berne*. Not Open Data yet.
 
 
 #### Weather Data
-- Brand New: [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_hourly_cities_2017.zip). Not Open Data yet.
-- Brand New: [Weather data on daily basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_daily_cities_2017.zip). Not Open Data yet.
+- Brand New: Weather data on hourly basis for selected Cities in Switzerland, 2017. Not Open Data yet.
+- Brand New: Weather data on daily basis for selected Cities in Switzerland, 2017. Not Open Data yet.
 
 ### Open Data sources with reference to Switzerland (A-Z)
 [Canton of Basel-Stadt](http://www.staatskanzlei.bs.ch/oeffentlichkeitsprinzip/ogd/datenkatalog.html)

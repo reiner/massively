@@ -31,13 +31,13 @@ Be creative! We look forward to hearing from you and your ideas.
 #### Relevant data sources
 
 - [Automated pedestrian and bicycle counting from Zurich](https://data.stadt-zuerich.ch/dataset?tags=veloverkehr). Open Data.
-- [Bicycle countings on hourly basis in 2017 from Basel, Bern, St. Gallen and Lucerne](http://statistik.stadt-zuerich.ch/modules/twist2018/swiss_cities_bicycle_countings.zip). Not Open Data.
+- Bicycle countings on hourly basis in 2017 from Basel, Bern, St. Gallen and Lucerne. Not Open Data.
 
 - [Public transport demand of VBZ]( https://data.stadt-zuerich.ch/dataset/vbz-fahrgastzahlen-ogd), Open Data.
 
 - Weather Data from MeteoSwiss for Basel, Bern, St. Gallen, Lucerne and Zurich:
- - [Weather data on hourly basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_hourly_cities_2017.zip). Not Open Data.
- - [Weather data on daily basis for selected Cities in Switzerland, 2017](http://statistik.stadt-zuerich.ch/modules/twist2018/meteoswiss/meteoswiss_weatherdata_daily_cities_2017.zip). Not Open Data.
+ - Weather data on hourly basis for selected Cities in Switzerland, 2017. Not Open Data.
+ - Weather data on daily basis for selected Cities in Switzerland, 2017. Not Open Data.
 
 - Further [Open Data from the City of Zurich related to bicycles](https://data.stadt-zuerich.ch/dataset?q=velo&sort=title_string+desc).
 
